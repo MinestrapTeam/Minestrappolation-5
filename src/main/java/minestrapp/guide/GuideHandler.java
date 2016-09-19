@@ -1,5 +1,6 @@
 package minestrapp.guide;
 
+import minestrapp.ItemsRegistry;
 import minestrapp.Minestrappolation;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
@@ -20,8 +21,8 @@ public class GuideHandler {
 		manager.imgGuideBG = new ResourceLocation(Minestrappolation.MODID+":textures/gui/guideBG.png");
 		
 		manager.registerEntryGroup(basics);
-		basics.addEntry(new GuideEntry("welcome", "Minestrappolation 5", new ItemStack(Items.BOOK), 50, 50));
-		manager.registerInfoPage("welcome", new GuideInfoPage("welcome", EnumPageType.INFO));
+		basics.addEntry(new GuideEntry("minechiridion", "Minechiridion", new ItemStack(ItemsRegistry.minechiridion), 50, 50));
+		manager.registerInfoPage("minechiridion", new GuideInfoPage("minechiridion", EnumPageType.INFO));
 	}
 
 }

@@ -1,11 +1,11 @@
-##### GUIDE #####
-guide.guidance.welcome.title=Minestrappolation 5
-guide.guidance.welcome.desc=This is a test description for the guide
+##### BLOCK #####
+
+##### ITEM #####
+item.mineguide.name=Minechiridion
 
 ##### TAB #####
 itemGroup.Minestrappolation=Minestrappolation
 
-##### ITEM #####
-item.mineguide.name=Minechiridion
-##### BLOCK #####
-
+##### GUIDE #####
+guide.guidance.minechiridion.title=Minechiridion
+guide.guidance.minechiridion.desc=An ancient tome containing a wealth of knowlege about the many blocks and items that make up the world.
