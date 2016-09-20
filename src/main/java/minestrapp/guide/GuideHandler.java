@@ -17,6 +17,8 @@ public class GuideHandler {
 	public static GuideGroup basics = new GuideGroup("Starting Out");
 	
 	public static void preInit(){
+		manager.textColor = 0;
+		
 		manager.imgGuide = new ResourceLocation(Minestrappolation.MODID+":textures/gui/guide.png");
 		manager.imgGuideBG = new ResourceLocation(Minestrappolation.MODID+":textures/gui/guideBG.png");
 		

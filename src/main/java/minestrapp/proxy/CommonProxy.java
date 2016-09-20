@@ -1,5 +1,6 @@
 package minestrapp.proxy;
 
+import minestrapp.BlocksRegistry;
 import minestrapp.ItemsRegistry;
 import minestrapp.guide.GuideHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -12,7 +13,7 @@ public class CommonProxy {
 	public void preInit(FMLPreInitializationEvent event){
 		ItemsRegistry.init();
 		GuideHandler.preInit();
-		//BlocksRegistry.init();
+		BlocksRegistry.init();
 	}
 	
 	public void init(FMLInitializationEvent event){
@@ -24,4 +25,3 @@ public class CommonProxy {
 		//NetworkRegistry.INSTANCE.registerGuiHandler(Crystallo.instance, new GuiHandler());
 	}
 }
-
