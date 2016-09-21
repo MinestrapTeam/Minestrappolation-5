@@ -5,6 +5,7 @@ import java.util.List;
 
 import minestrapp.guide.GuideHandler;
 import minestrapp.items.IItemVariants;
+import minestrapp.items.ItemBase;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.model.ModelLoader;
@@ -14,9 +15,18 @@ import werty.guidance.ItemGuide;
 public class ItemsRegistry {
 	static List<Item> itemList = new ArrayList<Item>();
 	
+	//Minerals
+	public static Item shard_sunstone;
+	
+	//Utility Items
 	public static Item minechiridion;
 	
 	public static void init(){
+		
+		//Minerals
+		register(shard_sunstone = new ItemBase("shard_sunstone").setCreativeTab(Minestrappolation.tab));
+		
+		//Utility Items
 		register(minechiridion = new ItemGuide(GuideHandler.manager).setCreativeTab(Minestrappolation.tab).setUnlocalizedName("mineguide").setRegistryName("mineguide"));
 	}
 	

@@ -2,14 +2,38 @@
 
 ## Resource ##
 tile.block_copper.name=Block of Copper
+tile.block_tin.name=Block of Tin
+tile.block_bronze.name=Block of Bronze
+tile.block_steel.name=Block of Steel
+tile.block_meurodite.name=Block of Meurodite
+tile.block_torite.name=Block of Torite
+tile.block_sunstone.name=Sunstone
+tile.block_irradiant_sunstone.name=Irradiant Sunstone
+tile.block_irradium.name=Block of Irradium
+tile.block_titanium.name=Block of Titanium
+tile.block_glacierite.name=Block of Glacierite
+tile.block_blazium.name=Block of Blazium
+tile.block_soul.name=Soul Gem Block
+tile.block_dimensium.name=Block of Dimensium
+
+
 
 ##### ITEM #####
+
+## Mineral ##
+item.shard_sunstone.name=Sunstone Shard
+
+
 
 ## Utility ##
 item.mineguide.name=Minechiridion
 
+
+
 ##### TAB #####
 itemGroup.Minestrappolation=Minestrappolation
+
+
 
 ##### GUIDE #####
 guide.guidance.minechiridion.title=Minechiridion
