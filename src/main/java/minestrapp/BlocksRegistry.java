@@ -5,6 +5,8 @@ import java.util.List;
 
 import minestrapp.blocks.BlockBase;
 import net.minecraft.block.Block;
+import net.minecraft.block.SoundType;
+import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -15,10 +17,10 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class BlocksRegistry {
 	public static List<Block> blockList = new ArrayList<Block>();
 	
-	public static Block test;
+	public static Block block_copper;
 	
 	public static void init(){
-		register(test = new BlockBase("test", Material.ROCK));
+		register(block_copper = new BlockBase("block_copper", Material.IRON, MapColor.ADOBE, SoundType.METAL, "pickaxe", 0).setHardness(4.0F).setResistance(10.0F).setCreativeTab(Minestrappolation.tab));
 	}
 	
 	public static void registerRenders(){

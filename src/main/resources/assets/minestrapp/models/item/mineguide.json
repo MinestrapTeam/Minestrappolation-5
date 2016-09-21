@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "minestrapp:items/minechiridion"
+        "layer0": "minestrapp:items/utility/minechiridion"
     }
 }

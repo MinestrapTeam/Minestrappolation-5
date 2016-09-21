@@ -1,6 +1,11 @@
 ##### BLOCK #####
 
+## Resource ##
+tile.block_copper.name=Block of Copper
+
 ##### ITEM #####
+
+## Utility ##
 item.mineguide.name=Minechiridion
 
 ##### TAB #####
