@@ -16,7 +16,7 @@ public class BlockBase extends Block{
 		super(materialIn);
 		this.setUnlocalizedName(name);
 		this.setRegistryName(Minestrappolation.MODID+":"+name);
-		this.setCreativeTab(Minestrappolation.tab);
+		this.setCreativeTab(Minestrappolation.resource);
 		this.mapcolor = mapcolor;
 		this.blockSoundType = soundtype;
 		if(tool != null)

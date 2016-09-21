@@ -22,15 +22,55 @@ public class Minestrappolation
     public static final String MODID = "minestrapp";
     public static final String VERSION = "0.0.1";
     
-    public static CreativeTabs tab = new CreativeTabs("Minestrappolation") {
+    public static CreativeTabs resource = new CreativeTabs("ResourceBlocks")
+    {
     	@Override
     	public String getTabLabel(){
-    		return "Minestrappolation";
+    		return "ResourceBlocks";
     	}
 		@Override
 		@SideOnly(Side.CLIENT)
 		public Item getTabIconItem(){
-			return Items.BOOK;
+			return Item.getItemFromBlock(BlocksRegistry.block_copper);
+		}
+	};
+	
+	public static CreativeTabs utility = new CreativeTabs("UtilityBlocks")
+    {
+    	@Override
+    	public String getTabLabel(){
+    		return "UtilityBlocks";
+    	}
+		@Override
+		@SideOnly(Side.CLIENT)
+		public Item getTabIconItem(){
+			return Item.getItemFromBlock(BlocksRegistry.block_irradiant_sunstone);
+		}
+	};
+    
+    public static CreativeTabs minerals = new CreativeTabs("Minerals")
+    {
+    	@Override
+    	public String getTabLabel(){
+    		return "Minerals";
+    	}
+		@Override
+		@SideOnly(Side.CLIENT)
+		public Item getTabIconItem(){
+			return ItemsRegistry.ingot_copper;
+		}
+	};
+	
+	public static CreativeTabs special_tools = new CreativeTabs("SpecialtyTools")
+    {
+    	@Override
+    	public String getTabLabel(){
+    		return "SpecialtyTools";
+    	}
+		@Override
+		@SideOnly(Side.CLIENT)
+		public Item getTabIconItem(){
+			return ItemsRegistry.minechiridion;
 		}
 	};
     

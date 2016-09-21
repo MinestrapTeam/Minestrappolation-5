@@ -21,7 +21,27 @@ tile.block_dimensium.name=Block of Dimensium
 ##### ITEM #####
 
 ## Mineral ##
+item.dust_irradium.name=Irradium
+item.dust_dimensium.name=Dimensium Dust
+
+item.ingot_copper.name=Copper Ingot
+item.ingot_tin.name=Tin Ingot
+item.ingot_bronze.name=Bronze Ingot
+item.ingot_steel.name=Steel Ingot
+item.ingot_torite.name=Torite Ingot
+item.ingot_titanium.name=Titanium Ingot
+item.ingot_glacierite.name=Glacierite Ingot
+item.ingot_blazium.name=Blazium Ingot
+item.ingot_dimensium.name=Dimensium Ingot
+
+item.shard_desert_quartz.name=Desert Quartz
+item.shard_radiant_quartz.name=Irradiant Quartz
 item.shard_sunstone.name=Sunstone Shard
+item.shard_glacieric_ice.name=Glacieric Ice Shard
+item.shard_blazium.name=Blaze Shard
+item.shard_jadachite.name=Jadachite Shard
+
+item.gem_meurodite.name=Meurodite
 
 
 
@@ -31,7 +51,10 @@ item.mineguide.name=Minechiridion
 
 
 ##### TAB #####
-itemGroup.Minestrappolation=Minestrappolation
+itemGroup.ResourceBlocks=Resource Blocks
+itemGroup.UtilityBlocks=Utility Blocks
+itemGroup.Minerals=Minerals
+itemGroup.SpecialtyTools=Specialty Tools
 
 
 
