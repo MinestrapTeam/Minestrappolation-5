@@ -1,6 +1,7 @@
 package minestrapp.blocks;
 
 import minestrapp.Minestrappolation;
+import minestrapp.Tabs;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.MapColor;
@@ -16,7 +17,7 @@ public class BlockBase extends Block{
 		super(materialIn);
 		this.setUnlocalizedName(name);
 		this.setRegistryName(Minestrappolation.MODID+":"+name);
-		this.setCreativeTab(Minestrappolation.resource);
+		this.setCreativeTab(Tabs.resource);
 		this.mapcolor = mapcolor;
 		this.blockSoundType = soundtype;
 		if(tool != null)

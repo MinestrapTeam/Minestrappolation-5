@@ -22,62 +22,10 @@ public class Minestrappolation
     public static final String MODID = "minestrapp";
     public static final String VERSION = "0.0.1";
     
-    public static CreativeTabs resource = new CreativeTabs("ResourceBlocks")
-    {
-    	@Override
-    	public String getTabLabel(){
-    		return "ResourceBlocks";
-    	}
-		@Override
-		@SideOnly(Side.CLIENT)
-		public Item getTabIconItem(){
-			return Item.getItemFromBlock(BlocksRegistry.block_copper);
-		}
-	};
-	
-	public static CreativeTabs utility = new CreativeTabs("UtilityBlocks")
-    {
-    	@Override
-    	public String getTabLabel(){
-    		return "UtilityBlocks";
-    	}
-		@Override
-		@SideOnly(Side.CLIENT)
-		public Item getTabIconItem(){
-			return Item.getItemFromBlock(BlocksRegistry.block_irradiant_sunstone);
-		}
-	};
-    
-    public static CreativeTabs minerals = new CreativeTabs("Minerals")
-    {
-    	@Override
-    	public String getTabLabel(){
-    		return "Minerals";
-    	}
-		@Override
-		@SideOnly(Side.CLIENT)
-		public Item getTabIconItem(){
-			return ItemsRegistry.ingot_copper;
-		}
-	};
-	
-	public static CreativeTabs special_tools = new CreativeTabs("SpecialtyTools")
-    {
-    	@Override
-    	public String getTabLabel(){
-    		return "SpecialtyTools";
-    	}
-		@Override
-		@SideOnly(Side.CLIENT)
-		public Item getTabIconItem(){
-			return ItemsRegistry.minechiridion;
-		}
-	};
-    
     @SidedProxy(clientSide = "minestrapp.proxy.ClientProxy", serverSide = "minestrapp.proxy.CommonProxy")
     public static CommonProxy proxy;
     
-    @Instance("Minestrappolation")
+    @Instance("minestrapp")
     public static Minestrappolation instance;
     
     @EventHandler

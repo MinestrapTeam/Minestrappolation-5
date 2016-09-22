@@ -23,6 +23,7 @@ public class GuideHandler {
 		manager.imgGuideBG = new ResourceLocation(Minestrappolation.MODID+":textures/gui/guideBG.png");
 		
 		manager.registerEntryGroup(basics);
+		
 		basics.addEntry(new GuideEntry("minechiridion", "Minechiridion", new ItemStack(ItemsRegistry.minechiridion), 50, 50));
 		manager.registerInfoPage("minechiridion", new GuideInfoPage("minechiridion", EnumPageType.INFO));
 	}

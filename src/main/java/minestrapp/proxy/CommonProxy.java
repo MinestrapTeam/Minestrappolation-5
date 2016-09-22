@@ -1,11 +1,14 @@
 package minestrapp.proxy;
 
 import minestrapp.BlocksRegistry;
+import minestrapp.GuiHandler;
 import minestrapp.ItemsRegistry;
+import minestrapp.Minestrappolation;
 import minestrapp.guide.GuideHandler;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.fml.common.network.NetworkRegistry;
 import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 
 public class CommonProxy {
@@ -22,6 +25,6 @@ public class CommonProxy {
 	}
 
 	public void postInit(FMLPostInitializationEvent event){
-		//NetworkRegistry.INSTANCE.registerGuiHandler(Crystallo.instance, new GuiHandler());
+		NetworkRegistry.INSTANCE.registerGuiHandler(Minestrappolation.instance, new GuiHandler());
 	}
 }

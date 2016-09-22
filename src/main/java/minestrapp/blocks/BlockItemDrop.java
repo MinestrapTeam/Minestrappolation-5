@@ -19,7 +19,7 @@ import net.minecraft.world.World;
 
 public class BlockItemDrop extends BlockBase
 {
-	public Item item;
+	public ItemStack item;
 	public int meta;
 	public int basequant;
 	public int basebonus;
@@ -27,11 +27,10 @@ public class BlockItemDrop extends BlockBase
 	public int minXP;
 	public int maxXP;
 	
-	public BlockItemDrop(String name, Material materialIn, MapColor mapcolor, SoundType soundtype, String tool, int harvestlevel, Item item, int meta, int basequant, int basebonus, boolean fortunebonus, int minXP, int maxXP)
+	public BlockItemDrop(String name, Material materialIn, MapColor mapcolor, SoundType soundtype, String tool, int harvestlevel, ItemStack item, int basequant, int basebonus, boolean fortunebonus, int minXP, int maxXP)
 	{
 		super(name, materialIn, mapcolor, soundtype, tool, harvestlevel);
 		this.item = item;
-		this.meta = meta;
 		this.basequant = basequant;
 		this.basebonus = basebonus;
 		this.fortunebonus = fortunebonus;
@@ -42,7 +41,7 @@ public class BlockItemDrop extends BlockBase
 	@Nullable
     public Item getItemDropped(IBlockState state, Random rand, int fortune)
     {
-        return item;
+        return item.getItem();
     }
 	
 	public int quantityDropped(Random random)
@@ -94,6 +93,6 @@ public class BlockItemDrop extends BlockBase
 
     public int damageDropped(IBlockState state)
     {
-        return meta;
+        return item.getItemDamage();
     }
 }
