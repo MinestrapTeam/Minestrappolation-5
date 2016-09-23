@@ -41,7 +41,33 @@ public class Tabs {
 		@Override
 		@SideOnly(Side.CLIENT)
 		public Item getTabIconItem(){
-			return ItemsRegistry.ingot_copper;
+			return ItemsRegistry.ingots;
+		}
+	};
+	
+	public static CreativeTabs materials = new CreativeTabs("Materials")
+    {
+    	@Override
+    	public String getTabLabel(){
+    		return "Materials";
+    	}
+		@Override
+		@SideOnly(Side.CLIENT)
+		public Item getTabIconItem(){
+			return ItemsRegistry.tech_component;
+		}
+	};
+	
+	public static CreativeTabs foods = new CreativeTabs("Foods")
+    {
+    	@Override
+    	public String getTabLabel(){
+    		return "Foods";
+    	}
+		@Override
+		@SideOnly(Side.CLIENT)
+		public Item getTabIconItem(){
+			return ItemsRegistry.raspberry;
 		}
 	};
 	

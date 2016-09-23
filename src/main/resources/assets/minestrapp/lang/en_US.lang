@@ -22,26 +22,96 @@ tile.block_dimensium.name=Block of Dimensium
 
 ## Mineral ##
 item.minestrapp_dust_0.name=Irradium
-item.minestrapp_dust_1.name=Dimensium Dust
+item.minestrapp_dust_1.name=Rock Salt
+item.minestrapp_dust_2.name=Dimensium Dust
 
-item.ingot_copper.name=Copper Ingot
-item.ingot_tin.name=Tin Ingot
-item.ingot_bronze.name=Bronze Ingot
-item.ingot_steel.name=Steel Ingot
-item.ingot_torite.name=Torite Ingot
-item.ingot_titanium.name=Titanium Ingot
-item.ingot_glacierite.name=Glacierite Ingot
-item.ingot_blazium.name=Blazium Ingot
-item.ingot_dimensium.name=Dimensium Ingot
+item.minestrapp_ingot_0.name=Copper Ingot
+item.minestrapp_ingot_1.name=Tin Ingot
+item.minestrapp_ingot_2.name=Bronze Ingot
+item.minestrapp_ingot_3.name=Steel Ingot
+item.minestrapp_ingot_4.name=Torite Ingot
+item.minestrapp_ingot_5.name=Titanium Ingot
+item.minestrapp_ingot_6.name=Glacierite Ingot
+item.minestrapp_ingot_7.name=Blazium Ingot
+item.minestrapp_ingot_8.name=Dimensium Ingot
 
 item.minestrapp_shard_0.name=Desert Quartz
-item.minestrapp_shard_1.name=Irradiant Quartz
-item.minestrapp_shard_2.name=Sunstone Shard
-item.minestrapp_shard_3.name=Glacieric Ice Shard
-item.minestrapp_shard_4.name=Blaze Shard
-item.minestrapp_shard_5.name=Jadachite Shard
+item.minestrapp_shard_1.name=Sunstone Shard
+item.minestrapp_shard_2.name=Glacieric Ice Shard
+item.minestrapp_shard_3.name=Blaze Shard
+item.minestrapp_shard_4.name=Jadachite Shard
+item.shard_radiant_quartz.name=Irradiant Quartz
 
 item.gem_meurodite.name=Meurodite
+
+
+
+## Materials ##
+item.minestrapp_tech_component_0.name=Technological Doodad
+item.minestrapp_tech_component_1.name=Advanced Technological Doodad
+item.minestrapp_tech_component_2.name=Propeller
+
+
+
+## Food ##
+item.blueberry.name=Blueberries
+item.raspberry.name=Raspberries
+item.blackberry.name=Blackberries
+item.strawberry.name=Strawberries
+item.farberry.name=Farberries
+
+item.pepper.name=Pepper
+item.celery.name=Celery
+item.tomato.name=Tomato
+item.corn_stick.name=Corn on a Stick
+item.corn_grilled.name=Grilled Corn
+
+item.corn_meal.name=Corn Meal
+item.corn_bread.name=Corn Bread
+item.dough.name=Dough
+item.bun.name=Bun
+item.cookie_sugar.name=Sugar Cookie
+item.sandwich_pbj.name=PBJ Sandwich
+item.sandwich_salmon.name=Salmon Burger
+item.sandwich_hamburger.name=Hamburger
+item.dry_spaghetti.name=Dried Spaghetti
+item.pie_crust.name=Pie Crust
+item.pie_apple.name=Apple Pie
+
+item.bowl_fried_egg.name=Fried Egg
+item.bowl_rice.name=Rice Bowl
+item.bowl_stir_fry.name=Stir Fry
+item.bowl_tomato_sauce.name=Tomato Sauce
+item.bowl_tomato_soup.name=Tomato Soup
+item.bowl_spaghetti.name=Spaghetti
+item.bowl_salads_green.name=Green Salad
+item.bowl_salads_hearty.name=Hearty Salad
+item.bowl_salads_healthy.name=Healthy Salad
+item.bowl_salads_nourishing.name=Nourishing Salad
+item.bowl_salads_refreshing.name=Refreshing Salad
+item.bowl_salads_light.name=Light Salad
+item.bowl_popcorn.name=Popcorn
+item.bowl_ice_cream.name=Ice Cream
+item.bowl_glowshroom_stew.name=Glowshroom Stew
+
+item.bread_mushroom_stew.name=Mushroom Stew
+item.bread_beetroot_soup.name=Beetroot Soup
+item.bread_rabbit_stew.name=Rabbit Stew
+item.bread_fried_egg.name=Fried Egg
+item.bread_rice.name=Rice Bowl
+item.bread_stir_fry.name=Stir Fry
+item.bread_tomato_sauce.name=Tomato Sauce
+item.bread_tomato_soup.name=Tomato Soup
+item.bread_spaghetti.name=Spaghetti
+item.bread_salads_green.name=Green Salad
+item.bread_salads_hearty.name=Hearty Salad
+item.bread_salads_healthy.name=Healthy Salad
+item.bread_salads_nourishing.name=Nourishing Salad
+item.bread_salads_refreshing.name=Refreshing Salad
+item.bread_salads_light.name=Light Salad
+item.bread_popcorn.name=Popcorn
+item.bread_ice_cream.name=Ice Cream
+item.bread_glowshroom_stew.name=Glowshroom Stew
 
 
 
@@ -54,6 +124,8 @@ item.mineguide.name=Minechiridion
 itemGroup.ResourceBlocks=Resource Blocks
 itemGroup.UtilityBlocks=Utility Blocks
 itemGroup.Minerals=Minerals
+itemGroup.Materials=Materials
+itemGroup.Foods=Foodstuffs
 itemGroup.SpecialtyTools=Specialty Tools
 
 

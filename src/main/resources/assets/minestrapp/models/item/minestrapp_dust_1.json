@@ -1,6 +1,6 @@
 {
     "parent": "item/generated",
     "textures": {
-        "layer0": "minestrapp:items/mineral/dust_dimensium"
+        "layer0": "minestrapp:items/mineral/dust_salt"
     }
 }
