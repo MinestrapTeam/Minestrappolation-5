@@ -25,6 +25,21 @@ item.minestrapp_dust_0.name=Irradium
 item.minestrapp_dust_1.name=Rock Salt
 item.minestrapp_dust_2.name=Dimensium Dust
 
+item.minestrapp_chunk_0.name=Red Rock Chunk
+item.minestrapp_chunk_1.name=Stone Chunk
+item.minestrapp_chunk_2.name=Coldstone Chunk
+item.minestrapp_chunk_3.name=Icestone Chunk
+item.minestrapp_chunk_4.name=Oceanstone Chunk
+item.minestrapp_chunk_5.name=Copper Ore Chunk
+item.minestrapp_chunk_6.name=Tin Ore Chunk
+item.minestrapp_chunk_7.name=Iron Ore Chunk
+item.minestrapp_chunk_8.name=Gold Ore Chunk
+item.minestrapp_chunk_9.name=Torite Ore Chunk
+item.minestrapp_chunk_10.name=Titanium Ore Chunk
+item.minestrapp_chunk_11.name=End Stone Chunk
+item.minestrapp_chunk_12.name=Dimensium Ore Chunk
+item.minestrapp_chunk_13.name=Continnium Ore Chunk
+
 item.minestrapp_ingot_0.name=Copper Ingot
 item.minestrapp_ingot_1.name=Tin Ingot
 item.minestrapp_ingot_2.name=Bronze Ingot
@@ -47,6 +62,10 @@ item.gem_meurodite.name=Meurodite
 
 
 ## Materials ##
+item.minestrapp_plating_0.name=Tin Plating
+item.minestrapp_plating_1.name=Bronze Plating
+item.minestrapp_plating_2.name=Steel Plating
+item.minestrapp_plating_3.name=Meurodite Plating
 item.minestrapp_tech_component_0.name=Technological Doodad
 item.minestrapp_tech_component_1.name=Advanced Technological Doodad
 item.minestrapp_tech_component_2.name=Propeller
@@ -112,6 +131,28 @@ item.bread_salads_light.name=Light Salad
 item.bread_popcorn.name=Popcorn
 item.bread_ice_cream.name=Ice Cream
 item.bread_glowshroom_stew.name=Glowshroom Stew
+
+item.bottle_jam.name=Jam
+item.bottle_peanut_butter.name=Peanut Butter
+item.bottle_hot_sauce.name= Hot Sauce
+
+item.fat.name=Fat
+item.grease.name=Grease
+item.squid_tentacle.name=Squid Tentacle
+item.calamari.name=Calamari
+item.sushi.name=Sushi
+item.lucky_sushi.name=Lucky Sushi
+item.onigiri.name=Onigiri
+item.flesh.name=Flesh
+
+item.fries.name=Fries
+item.fried_fish.name=Fried Fish
+item.fried_salmon.name=Fried Salmon
+item.fish_and_chips.name=Fish and Chips
+
+item.candy_0.name=Sweet Candy
+item.candy_1.name=Hard Candy
+item.candy_2.name=Smooth Candy
 
 
 

@@ -24,16 +24,12 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class FoodItemSalad extends FoodItemBase implements IItemVariants
 {
-	public boolean breadbowl;
+	public static boolean breadbowl;
 	
 	public FoodItemSalad(String name, boolean breadbowl)
 	{
 		super(name, 0, 0F, false);
 		this.breadbowl = breadbowl;
-		if(this.breadbowl = false)
-		{
-			this.setMaxStackSize(1);
-		}
 	}
 
 	public int getHealAmount(ItemStack stack)
@@ -55,6 +51,10 @@ public class FoodItemSalad extends FoodItemBase implements IItemVariants
         if (saladType.getPotionEffect() != null)
         {
             player.addPotionEffect(saladType.getPotionEffect());
+        }
+        else if (saladType == SaladType.HEALTHY)
+        {
+        	player.heal(10);
         }
 
         super.onFoodEaten(stack, worldIn, player);
@@ -163,8 +163,8 @@ public class FoodItemSalad extends FoodItemBase implements IItemVariants
     public ItemStack onItemUseFinish(ItemStack stack, World worldIn, EntityLivingBase entityLiving)
     {
         super.onItemUseFinish(stack, worldIn, entityLiving);
-        if(breadbowl = false)
-        	return new ItemStack(Items.BOWL);
+        if(this.maxStackSize == 1)
+        	return new ItemStack(Items.BOWL, 1);
         else
         	return stack;
     }
