@@ -24,6 +24,7 @@ tile.block_dimensium.name=Block of Dimensium
 item.minestrapp_dust_0.name=Irradium
 item.minestrapp_dust_1.name=Rock Salt
 item.minestrapp_dust_2.name=Dimensium Dust
+item.minestrapp_dust_3.name=Diamond Dust
 
 item.minestrapp_chunk_0.name=Red Rock Chunk
 item.minestrapp_chunk_1.name=Stone Chunk
@@ -62,6 +63,37 @@ item.gem_meurodite.name=Meurodite
 
 
 ## Materials ##
+item.crushed_ice.name=Crushed Ice
+item.grease.name=Grease
+item.guano.name=Guano
+item.deathmeal.name=Deathmeal
+item.minestrapp_mob_loot_0.name=Animal Bones
+item.minestrapp_mob_loot_1.name=Tallow
+item.minestrapp_mob_loot_2.name=Wing Sinew
+item.minestrapp_mob_loot_3.name=Wolf Hide
+item.minestrapp_mob_loot_4.name=Infectious Fungus
+item.minestrapp_mob_loot_5.name=Slime Core
+item.minestrapp_mob_loot_6.name=Withered Bone
+item.minestrapp_mob_loot_7.name=Ender Aura
+item.animal_feet_0.name=Chicken Foot
+item.animal_feet_1.name=Cow Hoof
+item.animal_feet_2.name=Pig Hoof
+item.animal_feet_3.name=Sheep Hoof
+item.animal_feet_4.name=Horse Hoof
+item.gene_samples_0.name=Bat Gene Sample
+item.gene_samples_1.name=Chicken Gene Sample
+item.gene_samples_2.name=Cow Gene Sample
+item.gene_samples_3.name=Pig Gene Sample
+item.gene_samples_4.name=Rabbit Gene Sample
+item.gene_samples_5.name=Sheep Gene Sample
+item.gene_samples_6.name=Squid Gene Sample
+item.gene_samples_7.name=Polar Bear Gene Sample
+item.gene_samples_8.name=Horse Gene Sample
+item.gene_samples_9.name=Ocelot Gene Sample
+item.gene_samples_10.name=Wolf Gene Sample
+
+item.minestrapp_crafting_ingredients_0.name=Reinforced Stick
+item.minestrapp_crafting_ingredients_1.name=Wing Segment
 item.minestrapp_plating_0.name=Tin Plating
 item.minestrapp_plating_1.name=Bronze Plating
 item.minestrapp_plating_2.name=Steel Plating
@@ -69,6 +101,12 @@ item.minestrapp_plating_3.name=Meurodite Plating
 item.minestrapp_tech_component_0.name=Technological Doodad
 item.minestrapp_tech_component_1.name=Advanced Technological Doodad
 item.minestrapp_tech_component_2.name=Propeller
+item.enderporter_chip_0.name=Inert Chip
+item.enderporter_chip_1.name=Collision Chip
+item.enderporter_chip_2.name=Inversion Chip
+item.enderporter_chip_3.name=Placer Chip
+item.enderporter_chip_4.name=Preserver Chip
+item.enderporter_chip_5.name=Sufficiency Chip
 
 
 
@@ -137,7 +175,6 @@ item.bottle_peanut_butter.name=Peanut Butter
 item.bottle_hot_sauce.name= Hot Sauce
 
 item.fat.name=Fat
-item.grease.name=Grease
 item.squid_tentacle.name=Squid Tentacle
 item.calamari.name=Calamari
 item.sushi.name=Sushi

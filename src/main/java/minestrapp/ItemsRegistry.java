@@ -80,7 +80,6 @@ public class ItemsRegistry {
 	public static Item bottle_hot_sauce;
 		
 	public static Item fat;
-	public static Item grease;
 	public static Item squid_tentacle;
 	public static Item calamari;
 	public static Item sushi;
@@ -111,8 +110,20 @@ public class ItemsRegistry {
 	public static Item gem_meurodite;
 	
 	//Crafting Ingredients
+	public static Item crushed_ice;
+	public static Item grease;
+	public static Item guano;
+	public static Item deathmeal;
+	public static Item mob_loot;
+	public static Item animal_feet;
+	public static Item gene_samples;
+	
+	public static Item crafting_ingredients;
 	public static Item platings;
 	public static Item tech_component;
+	public static Item enderporter_chips;
+	public static Item heart_piece;
+	public static Item crystal_heart;
 	
 	//Utility Items
 	public static Item minechiridion;
@@ -174,7 +185,6 @@ public class ItemsRegistry {
 		register(bottle_hot_sauce = new FoodItemBowl("bottle_hot_sauce", 0, 0.2F, false, null, new ItemStack(Items.GLASS_BOTTLE)).setFireMode(1, 20).setPotionEffect(new PotionEffect(MobEffects.SPEED, 400, 2), 1F));
 		
 		register(fat = new FoodItemBase("fat", 2, 3.0F, false).setPotionEffect(new PotionEffect(MobEffects.HUNGER, 200, 0), 0.7F));
-		register(grease = new ItemBase("grease", false));
 		register(squid_tentacle = new FoodItemBase("squid_tentacle", 2, 0.3F, false).setPotionEffect(new PotionEffect(MobEffects.HUNGER, 100, 1), 0.7F));
 		register(calamari =  new FoodItemBase("calamari", 5, 0.6F, false));
 		register(sushi = new FoodItemBase("sushi", 14, 1.8F, false).setPotionEffect(new PotionEffect(MobEffects.HUNGER, 100, 1), 0.35F));
@@ -193,7 +203,7 @@ public class ItemsRegistry {
 		register(mana_leaf = new ItemBase("mana_leaf", false).setCreativeTab(Tabs.materials));
 		
 		//Minerals
-		register(dusts = new MetaItemBase("minestrapp_dust", false, 3).setCreativeTab(Tabs.minerals));
+		register(dusts = new MetaItemBase("minestrapp_dust", false, 4).setCreativeTab(Tabs.minerals));
 		
 		register(chunks = new MetaItemBase("minestrapp_chunk", false, 14).setCreativeTab(Tabs.minerals));
 		
@@ -205,8 +215,18 @@ public class ItemsRegistry {
 		register(gem_meurodite = new ItemBase("gem_meurodite", false).setCreativeTab(Tabs.minerals));
 		
 		//Crafting Ingredients
+		register(crushed_ice = new FoodItemBase("crushed_ice", 0, 0, false).setFireMode(2, 0).setAlwaysEdible().setCreativeTab(Tabs.materials));
+		register(grease = new ItemBase("grease", false).setCreativeTab(Tabs.materials));
+		register(guano = new ItemBase("guano", false).setCreativeTab(Tabs.materials));
+		register(deathmeal = new ItemBase("deathmeal", false).setCreativeTab(Tabs.materials));
+		register(mob_loot = new MetaItemBase("minestrapp_mob_loot", false, 8).setCreativeTab(Tabs.materials));
+		register(animal_feet = new MetaItemBase("animal_feet", false, 5).setCreativeTab(Tabs.materials));
+		register(gene_samples = new MetaItemBase("gene_samples", false, 11).setCreativeTab(Tabs.materials));
+		
+		register(crafting_ingredients = new MetaItemBase("minestrapp_crafting_ingredients", false, 2).setCreativeTab(Tabs.materials));
 		register(platings = new MetaItemBase("minestrapp_plating", false, 4).setCreativeTab(Tabs.materials));
 		register(tech_component = new MetaItemBase("minestrapp_tech_component", false, 3).setCreativeTab(Tabs.materials));
+		register(enderporter_chips = new MetaItemBase("enderporter_chip", false, 6).setCreativeTab(Tabs.materials));
 		
 		//Utility Items
 		register(minechiridion = new ItemGuide(GuideHandler.manager).setCreativeTab(Tabs.special_tools).setUnlocalizedName("mineguide").setRegistryName("mineguide"));
