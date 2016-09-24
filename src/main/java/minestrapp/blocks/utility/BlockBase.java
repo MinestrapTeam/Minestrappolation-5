@@ -1,4 +1,4 @@
-package minestrapp.blocks;
+package minestrapp.blocks.utility;
 
 import minestrapp.Minestrappolation;
 import minestrapp.Tabs;

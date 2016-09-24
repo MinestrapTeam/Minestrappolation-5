@@ -1,8 +1,8 @@
-package minestrapp.blocks.utility;
+package minestrapp.blocks;
 
 import java.util.Random;
 
-import minestrapp.blocks.BlockBase;
+import minestrapp.blocks.utility.BlockBase;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockFire;
 import net.minecraft.block.BlockTNT;
