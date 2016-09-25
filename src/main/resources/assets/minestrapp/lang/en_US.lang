@@ -1,5 +1,20 @@
 ##### BLOCK #####
 
+## Soil ##
+tile.rubble.name=Rubble
+
+
+
+## Plants ##
+tile.dead_branch.name=Dead Branch
+
+
+
+## Stone ##
+tile.invincium.name=Invincium
+
+
+
 ## Resource ##
 tile.block_copper.name=Block of Copper
 tile.block_tin.name=Block of Tin
@@ -199,6 +214,8 @@ item.mineguide.name=Minechiridion
 
 
 ##### TAB #####
+itemGroup.EnvironmentalBlocks=Environmental Blocks
+itemGroup.PlantBlocks=Plant Blocks
 itemGroup.ResourceBlocks=Resource Blocks
 itemGroup.UtilityBlocks=Utility Blocks
 itemGroup.Minerals=Minerals

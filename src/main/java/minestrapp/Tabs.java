@@ -6,6 +6,32 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class Tabs {
+	public static CreativeTabs environment = new CreativeTabs("EnvironmentalBlocks")
+    {
+    	@Override
+    	public String getTabLabel(){
+    		return "EnvironmentalBlocks";
+    	}
+		@Override
+		@SideOnly(Side.CLIENT)
+		public Item getTabIconItem(){
+			return Item.getItemFromBlock(BlocksRegistry.rubble);
+		}
+	};
+	
+	public static CreativeTabs plant = new CreativeTabs("PlantBlocks")
+    {
+    	@Override
+    	public String getTabLabel(){
+    		return "PlantBlocks";
+    	}
+		@Override
+		@SideOnly(Side.CLIENT)
+		public Item getTabIconItem(){
+			return Item.getItemFromBlock(BlocksRegistry.dead_branch);
+		}
+	};
+	
 	public static CreativeTabs resource = new CreativeTabs("ResourceBlocks")
     {
     	@Override

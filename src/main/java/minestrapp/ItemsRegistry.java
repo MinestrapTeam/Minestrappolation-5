@@ -12,6 +12,7 @@ import minestrapp.items.food.FoodItemBowl;
 import minestrapp.items.food.FoodItemCandy;
 import minestrapp.items.food.FoodItemSalad;
 import minestrapp.items.food.FoodItemSpecial;
+import minestrapp.items.misc.ItemGuano;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.Items;
 import net.minecraft.init.MobEffects;
@@ -217,7 +218,7 @@ public class ItemsRegistry {
 		//Crafting Ingredients
 		register(crushed_ice = new FoodItemBase("crushed_ice", 0, 0, false).setFireMode(2, 0).setAlwaysEdible().setCreativeTab(Tabs.materials));
 		register(grease = new ItemBase("grease", false).setCreativeTab(Tabs.materials));
-		register(guano = new ItemBase("guano", false).setCreativeTab(Tabs.materials));
+		register(guano = new ItemGuano("guano").setCreativeTab(Tabs.materials));
 		register(deathmeal = new ItemBase("deathmeal", false).setCreativeTab(Tabs.materials));
 		register(mob_loot = new MetaItemBase("minestrapp_mob_loot", false, 8).setCreativeTab(Tabs.materials));
 		register(animal_feet = new MetaItemBase("animal_feet", false, 5).setCreativeTab(Tabs.materials));

@@ -4,10 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 import minestrapp.blocks.BlockBlazium;
+import minestrapp.blocks.BlockDeadBranch;
+import minestrapp.blocks.BlockInvincium;
 import minestrapp.blocks.BlockIrradiantSunstone;
 import minestrapp.blocks.BlockIrradium;
 import minestrapp.blocks.utility.BlockBase;
 import minestrapp.blocks.utility.BlockItemDrop;
+import minestrapp.blocks.utility.GravityBlockBase;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.MapColor;
@@ -22,6 +25,15 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class BlocksRegistry {
 	public static List<Block> blockList = new ArrayList<Block>();
 	
+	//Soil
+	public static Block rubble;
+	
+	//Plants
+	public static Block dead_branch;
+	
+	//Stone
+	public static Block invincium;
+	
 	//Resource Blocks
 	public static Block block_copper, block_tin, block_bronze, block_steel, block_meurodite, block_torite, block_sunstone, block_irradiant_sunstone, block_irradium, block_titanium, block_glacierite, block_blazium, block_soul, block_dimensium;
 	
@@ -29,6 +41,15 @@ public class BlocksRegistry {
 	public static Block melter;
 	public static void init(){
 		// REGISTER BLOCKS
+		//Soil
+		register(rubble =  new GravityBlockBase("rubble", Material.ROCK, MapColor.STONE, SoundType.STONE, "pickaxe", 0).setHardness(1.75F).setResistance(8.0F).setCreativeTab(Tabs.environment));
+		
+		//Plants
+		register(dead_branch = new BlockDeadBranch("dead_branch", Material.VINE, MapColor.WOOD, SoundType.PLANT, null, 0).setHardness(0.3F).setCreativeTab(Tabs.plant));
+		
+		//Stone
+		register(invincium = new BlockInvincium("invincium", MapColor.NETHERRACK, 0).setLightLevel(0.2F).setCreativeTab(Tabs.environment));
+		
 		//Resource Blocks
 		register(block_copper = new BlockBase("block_copper", Material.IRON, MapColor.ADOBE, SoundType.METAL, "pickaxe", 0).setHardness(4.0F).setResistance(10.0F).setCreativeTab(Tabs.resource));
 		register(block_tin = new BlockBase("block_tin", Material.IRON, MapColor.CLOTH, SoundType.METAL, "pickaxe", 1).setHardness(3.5F).setResistance(5.0F).setCreativeTab(Tabs.resource));
