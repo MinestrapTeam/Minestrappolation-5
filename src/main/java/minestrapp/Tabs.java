@@ -15,7 +15,7 @@ public class Tabs {
 		@Override
 		@SideOnly(Side.CLIENT)
 		public Item getTabIconItem(){
-			return Item.getItemFromBlock(BlocksRegistry.rubble);
+			return Item.getItemFromBlock(BlocksRegistry.invincium);
 		}
 	};
 	
@@ -42,6 +42,19 @@ public class Tabs {
 		@SideOnly(Side.CLIENT)
 		public Item getTabIconItem(){
 			return Item.getItemFromBlock(BlocksRegistry.block_copper);
+		}
+	};
+	
+	public static CreativeTabs building = new CreativeTabs("BuildingBlocks")
+    {
+    	@Override
+    	public String getTabLabel(){
+    		return "BuildingBlocks";
+    	}
+		@Override
+		@SideOnly(Side.CLIENT)
+		public Item getTabIconItem(){
+			return Item.getItemFromBlock(BlocksRegistry.glow_glass);
 		}
 	};
 	

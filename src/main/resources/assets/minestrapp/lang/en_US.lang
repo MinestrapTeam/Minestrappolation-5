@@ -12,6 +12,7 @@ tile.dead_branch.name=Dead Branch
 
 ## Stone ##
 tile.invincium.name=Invincium
+tile.invincium_glacial.name=Glacial Invincium
 
 
 
@@ -30,6 +31,16 @@ tile.block_glacierite.name=Block of Glacierite
 tile.block_blazium.name=Block of Blazium
 tile.block_soul.name=Soul Gem Block
 tile.block_dimensium.name=Block of Dimensium
+
+
+
+## Glass ##
+tile.glow_glass.name=Glow Glass
+
+
+
+## Utility ##
+tile.godstone.name=Godstone
 
 
 
@@ -217,6 +228,7 @@ item.mineguide.name=Minechiridion
 itemGroup.EnvironmentalBlocks=Environmental Blocks
 itemGroup.PlantBlocks=Plant Blocks
 itemGroup.ResourceBlocks=Resource Blocks
+itemGroup.BuildingBlocks=Building Blocks
 itemGroup.UtilityBlocks=Utility Blocks
 itemGroup.Minerals=Minerals
 itemGroup.Materials=Materials

@@ -18,20 +18,16 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class BlockInvincium extends BlockBase
 {
-	public static int type;
 	
-	public BlockInvincium(String name, MapColor mapcolor, int type)
+	public BlockInvincium(String name, MapColor mapcolor)
 	{
 		super(name, Material.ROCK, mapcolor, SoundType.STONE, null, 0);
 		this.setBlockUnbreakable();
-		if(type == 1)
-			this.slipperiness = 0.96F;
-		this.type = type;
 	}
 	
 	public void onEntityWalk(World worldIn, BlockPos pos, Entity entityIn)
     {
-        if (!entityIn.isImmuneToFire() && entityIn instanceof EntityLivingBase && !EnchantmentHelper.func_189869_j((EntityLivingBase)entityIn) && type == 0)
+        if (!entityIn.isImmuneToFire() && entityIn instanceof EntityLivingBase && !EnchantmentHelper.func_189869_j((EntityLivingBase)entityIn))
         {
             entityIn.attackEntityFrom(DamageSource.field_190095_e, 1.0F);
         }
@@ -49,6 +45,6 @@ public class BlockInvincium extends BlockBase
 	@SideOnly(Side.CLIENT)
     public int getPackedLightmapCoords(IBlockState state, IBlockAccess source, BlockPos pos)
     {
-        return 15728880;
+    	return 15728880;  	
     }
 }

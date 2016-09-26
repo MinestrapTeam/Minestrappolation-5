@@ -1,4 +1,5 @@
 {
+"parent": "block/block",
 "textures": {
     "particle": "minestrapp:blocks/stone/invincium",
     "texture": "minestrapp:blocks/stone/invincium",

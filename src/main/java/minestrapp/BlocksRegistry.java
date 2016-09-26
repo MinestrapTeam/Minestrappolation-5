@@ -5,9 +5,11 @@ import java.util.List;
 
 import minestrapp.blocks.BlockBlazium;
 import minestrapp.blocks.BlockDeadBranch;
+import minestrapp.blocks.BlockGodstone;
 import minestrapp.blocks.BlockInvincium;
 import minestrapp.blocks.BlockIrradiantSunstone;
 import minestrapp.blocks.BlockIrradium;
+import minestrapp.blocks.GlassBlockBase;
 import minestrapp.blocks.utility.BlockBase;
 import minestrapp.blocks.utility.BlockItemDrop;
 import minestrapp.blocks.utility.GravityBlockBase;
@@ -33,9 +35,16 @@ public class BlocksRegistry {
 	
 	//Stone
 	public static Block invincium;
+	public static Block invincium_glacial;
 	
 	//Resource Blocks
 	public static Block block_copper, block_tin, block_bronze, block_steel, block_meurodite, block_torite, block_sunstone, block_irradiant_sunstone, block_irradium, block_titanium, block_glacierite, block_blazium, block_soul, block_dimensium;
+	
+	//Glass
+	public static Block glow_glass;
+	
+	//Utility Blocks
+	public static Block godstone;
 	
 	//Machines
 	public static Block melter;
@@ -48,7 +57,8 @@ public class BlocksRegistry {
 		register(dead_branch = new BlockDeadBranch("dead_branch", Material.VINE, MapColor.WOOD, SoundType.PLANT, null, 0).setHardness(0.3F).setCreativeTab(Tabs.plant));
 		
 		//Stone
-		register(invincium = new BlockInvincium("invincium", MapColor.NETHERRACK, 0).setLightLevel(0.2F).setCreativeTab(Tabs.environment));
+		register(invincium = new BlockInvincium("invincium", MapColor.NETHERRACK).setEntityInvulnerability("all").setLightLevel(0.2F).setCreativeTab(Tabs.environment).setResistance(1000000F));
+		register(invincium_glacial = new BlockBase("invincium_glacial", Material.ROCK, MapColor.CYAN, SoundType.STONE, null, 0).setEntityInvulnerability("all").setSlipperiness(0.97F).setBlockUnbreakable().setResistance(1000000F).setCreativeTab(Tabs.environment));
 		
 		//Resource Blocks
 		register(block_copper = new BlockBase("block_copper", Material.IRON, MapColor.ADOBE, SoundType.METAL, "pickaxe", 0).setHardness(4.0F).setResistance(10.0F).setCreativeTab(Tabs.resource));
@@ -64,7 +74,13 @@ public class BlocksRegistry {
 		register(block_glacierite = new BlockBase("block_glacierite", Material.IRON, MapColor.CYAN, SoundType.METAL, "pickaxe", 2).setHardness(5.0F).setResistance(10.0F).setCreativeTab(Tabs.resource));
 		register(block_blazium = new BlockBlazium("block_blazium", Material.IRON, MapColor.RED, SoundType.METAL, "pickaxe", 2).setHardness(5.0F).setResistance(10.0F).setLightLevel(0.5F).setCreativeTab(Tabs.resource));
 		register(block_soul = new BlockBase("block_soul", Material.IRON, MapColor.CYAN, SoundType.METAL, "pickaxe", 1).setHardness(3.0F).setResistance(8.0F).setCreativeTab(Tabs.resource));
-		register(block_dimensium = new BlockBase("block_dimensium", Material.IRON, MapColor.MAGENTA, SoundType.METAL, "pickaxe", 3).setHardness(5.0F).setResistance(10.0F).setCreativeTab(Tabs.resource));
+		register(block_dimensium = new BlockBase("block_dimensium", Material.IRON, MapColor.MAGENTA, SoundType.METAL, "pickaxe", 3).setEntityInvulnerability("dragon").setHardness(5.0F).setResistance(10.0F).setCreativeTab(Tabs.resource));
+		
+		//Glass
+		register(glow_glass = new GlassBlockBase("glow_glass", Material.GLASS, MapColor.GOLD, SoundType.GLASS, null, 0, 1, true, false).setLightLevel(0.85F).setCreativeTab(Tabs.building));
+		
+		//Utility Blocks
+		register(godstone = new BlockGodstone("godstone", Material.ROCK, MapColor.SAND, SoundType.STONE, "pickaxe", 1).setEntityInvulnerability("dragon").setHardness(3.0F).setResistance(15.0F).setLightLevel(1F).setCreativeTab(Tabs.utility));
 	}
 	
 	public static void registerRenders(){
