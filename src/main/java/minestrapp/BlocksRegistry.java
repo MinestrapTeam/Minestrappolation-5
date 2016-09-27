@@ -5,6 +5,7 @@ import java.util.List;
 
 import minestrapp.blocks.BlockBlazium;
 import minestrapp.blocks.BlockDeadBranch;
+import minestrapp.blocks.BlockGlaciericIce;
 import minestrapp.blocks.BlockGodstone;
 import minestrapp.blocks.BlockInvincium;
 import minestrapp.blocks.BlockIrradiantSunstone;
@@ -35,8 +36,7 @@ public class BlocksRegistry {
 	public static Block dead_branch;
 	
 	//Stone
-	public static Block invincium;
-	public static Block invincium_glacial;
+	public static Block invincium, invincium_glacial;
 	
 	//Resource Blocks
 	public static Block block_copper, block_tin, block_bronze, block_steel, block_meurodite, block_torite, block_sunstone, block_irradiant_sunstone, block_irradium, block_titanium, block_glacierite, block_blazium, block_soul, block_dimensium;
@@ -45,8 +45,7 @@ public class BlocksRegistry {
 	public static Block glow_glass;
 	
 	//Utility Blocks
-	public static Block rope;
-	public static Block godstone;
+	public static Block rope, glacieric_ice, godstone;
 	
 	//Machines
 	public static Block melter;
@@ -83,6 +82,7 @@ public class BlocksRegistry {
 		
 		//Utility Blocks
 		register(rope = new BlockRope("rope", Material.CLOTH, MapColor.WOOD, SoundType.CLOTH, "shears", 0).setHardness(0.8F).setCreativeTab(Tabs.utility));
+		register(glacieric_ice = new BlockGlaciericIce("glacieric_ice", Material.PACKED_ICE, MapColor.ICE, SoundType.GLASS, "pickaxe", 0).setHardness(0.5F).setCreativeTab(Tabs.utility));
 		register(godstone = new BlockGodstone("godstone", Material.ROCK, MapColor.SAND, SoundType.STONE, "pickaxe", 1).setEntityInvulnerability("dragon").setHardness(3.0F).setResistance(15.0F).setLightLevel(1F).setCreativeTab(Tabs.utility));
 	}
 	

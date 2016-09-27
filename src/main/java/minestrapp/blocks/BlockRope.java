@@ -145,7 +145,8 @@ public class BlockRope extends BlockBase
 				else
 				{
 					worldIn.setBlockState(pos1.offset(EnumFacing.UP), Blocks.AIR.getDefaultState());
-					worldIn.spawnEntityInWorld(new EntityItem(worldIn, playerIn.posX, playerIn.posY, playerIn.posZ, new ItemStack(BlocksRegistry.rope, 1)));
+					if(!worldIn.isRemote)
+						worldIn.spawnEntityInWorld(new EntityItem(worldIn, playerIn.posX, playerIn.posY, playerIn.posZ, new ItemStack(BlocksRegistry.rope, 1)));
 					isChecking = false;
 				}
 			}
