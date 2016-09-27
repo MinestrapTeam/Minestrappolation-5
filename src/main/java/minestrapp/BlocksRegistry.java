@@ -9,6 +9,7 @@ import minestrapp.blocks.BlockGodstone;
 import minestrapp.blocks.BlockInvincium;
 import minestrapp.blocks.BlockIrradiantSunstone;
 import minestrapp.blocks.BlockIrradium;
+import minestrapp.blocks.BlockRope;
 import minestrapp.blocks.GlassBlockBase;
 import minestrapp.blocks.utility.BlockBase;
 import minestrapp.blocks.utility.BlockItemDrop;
@@ -44,6 +45,7 @@ public class BlocksRegistry {
 	public static Block glow_glass;
 	
 	//Utility Blocks
+	public static Block rope;
 	public static Block godstone;
 	
 	//Machines
@@ -80,6 +82,7 @@ public class BlocksRegistry {
 		register(glow_glass = new GlassBlockBase("glow_glass", Material.GLASS, MapColor.GOLD, SoundType.GLASS, null, 0, 1, true, false).setLightLevel(0.85F).setCreativeTab(Tabs.building));
 		
 		//Utility Blocks
+		register(rope = new BlockRope("rope", Material.CLOTH, MapColor.WOOD, SoundType.CLOTH, "shears", 0).setHardness(0.8F).setCreativeTab(Tabs.utility));
 		register(godstone = new BlockGodstone("godstone", Material.ROCK, MapColor.SAND, SoundType.STONE, "pickaxe", 1).setEntityInvulnerability("dragon").setHardness(3.0F).setResistance(15.0F).setLightLevel(1F).setCreativeTab(Tabs.utility));
 	}
 	
