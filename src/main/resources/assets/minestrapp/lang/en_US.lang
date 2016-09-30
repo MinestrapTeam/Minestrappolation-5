@@ -1,6 +1,8 @@
 ##### BLOCK #####
 
 ## Soil ##
+tile.cold_sand.name=Cold Sand
+tile.cold_red_sand.name=Cold Red Sand
 tile.rubble.name=Rubble
 
 

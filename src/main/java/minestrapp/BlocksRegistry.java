@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import minestrapp.blocks.BlockBlazium;
+import minestrapp.blocks.BlockColdSand;
 import minestrapp.blocks.BlockDeadBranch;
 import minestrapp.blocks.BlockGlaciericIce;
 import minestrapp.blocks.BlockGodstone;
@@ -16,6 +17,7 @@ import minestrapp.blocks.utility.BlockBase;
 import minestrapp.blocks.utility.BlockItemDrop;
 import minestrapp.blocks.utility.GravityBlockBase;
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockSand;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
@@ -30,6 +32,7 @@ public class BlocksRegistry {
 	public static List<Block> blockList = new ArrayList<Block>();
 	
 	//Soil
+	public static Block cold_sand;
 	public static Block rubble;
 	
 	//Plants
@@ -52,6 +55,7 @@ public class BlocksRegistry {
 	public static void init(){
 		// REGISTER BLOCKS
 		//Soil
+		register(cold_sand = new BlockColdSand().setHardness(0.7F).setCreativeTab(Tabs.environment));
 		register(rubble =  new GravityBlockBase("rubble", Material.ROCK, MapColor.STONE, SoundType.STONE, "pickaxe", 0).setHardness(1.75F).setResistance(8.0F).setCreativeTab(Tabs.environment));
 		
 		//Plants
