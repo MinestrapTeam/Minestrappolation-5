@@ -20,8 +20,7 @@ public class BlockBase extends Block{
 	
 	public BlockBase(String name, Material materialIn, MapColor mapcolor, SoundType soundtype, String tool, int harvestlevel) {
 		super(materialIn);
-		if(name != null)
-			this.setUnlocalizedName(name);
+		this.setUnlocalizedName(name);
 		this.setRegistryName(Minestrappolation.MODID+":"+name);
 		this.setCreativeTab(Tabs.resource);
 		this.mapcolor = mapcolor;

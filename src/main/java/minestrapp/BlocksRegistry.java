@@ -55,7 +55,7 @@ public class BlocksRegistry {
 	public static void init(){
 		// REGISTER BLOCKS
 		//Soil
-		register(cold_sand = new BlockColdSand().setHardness(0.7F).setCreativeTab(Tabs.environment), new ItemBlock(cold_sand));
+		register(cold_sand = new BlockColdSand().setHardness(0.7F).setCreativeTab(Tabs.environment));
 		register(rubble =  new GravityBlockBase("rubble", Material.ROCK, MapColor.STONE, SoundType.STONE, "pickaxe", 0).setHardness(1.75F).setResistance(8.0F).setCreativeTab(Tabs.environment));
 		
 		//Plants
