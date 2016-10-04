@@ -307,6 +307,18 @@ guide.guidance.gold_ore.desc=A stone block with traces of Gold embedded in it. I
 
 
 ## Wood Building Blocks ##
+guide.guidance.oak_log.title=Oak Wood
+guide.guidance.oak_log.desc=A log from an Oak tree. It is flammable and can be used as fuel, though the more efficient method is smelting it into Charcoal. It can also be crafted or milled into Wood Planks and Boards.
+guide.guidance.birch_log.title=Birch Wood
+guide.guidance.birch_log.desc=A log from a Birch tree. It is flammable and can be used as fuel, though the more efficient method is smelting it into Charcoal. It can also be crafted or milled into Wood Planks and Boards.
+guide.guidance.spruce_log.title=Spruce Wood
+guide.guidance.spruce_log.desc=A log from a Spruce tree. It is flammable and can be used as fuel, though the more efficient method is smelting it into Charcoal. It can also be crafted or milled into Wood Planks and Boards.
+guide.guidance.jungle_log.title=Jungle Wood
+guide.guidance.jungle_log.desc=A log from a Jungle tree. It is flammable and can be used as fuel, though the more efficient method is smelting it into Charcoal. It can also be crafted or milled into Wood Planks and Boards. Jungle Wood is also the only type of block capable of sustaining Cocoa Pods, which can be planted on its sides.
+guide.guidance.acacia_log.title=Acacia Wood
+guide.guidance.acacia_log.desc=A log from an Acacia tree. It is flammable and can be used as fuel, though the more efficient method is smelting it into Charcoal. It can also be crafted or milled into Wood Planks and Boards.
+guide.guidance.dark_oak_log.title=Dark Oak Wood
+guide.guidance.dark_oak_log.desc=A log from a Dark Oak tree. It is flammable and can be used as fuel, though the more efficient method is smelting it into Charcoal. It can also be crafted or milled into Wood Planks and Boards.
 guide.guidance.oak_planks.title=Oak Wood Planks
 guide.guidance.oak_planks.desc=Planks made from Oak Wood. Useful for decoration, as well as many crafting recipes. Is flammable, and can be used as fuel.
 guide.guidance.birch_planks.title=Birch Wood Planks
