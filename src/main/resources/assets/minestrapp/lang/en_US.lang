@@ -249,6 +249,48 @@ guide.guidance.minechiridion.desc=An ancient tome containing a wealth of knowleg
 
 
 ## Plant Blocks ##
+guide.guidance.tallgrass.title=Tallgrass
+guide.guidance.tallgrass.desc=A tall tuft of grass found commonly on the surface of the Overworld. It drops various types of Seeds when broken, and drops itself when harvested with Shears. It can grow on Grass, Dirt, and Podzol, and can be Bonemealed into Double-Tall Grass.
+guide.guidance.fern.title=Fern
+guide.guidance.fern.desc=A leafy Fern, commonly found in Taiga, Redwood, and Jungle biomes. It occasionally drops Tomato Seeds when broken, and drops itself when harvested with Shears. It can grow on Grass, Dirt, Podzol, or in a Flower Pot, and can be Bonemealed into a Tall Fern.
+guide.guidance.double_tallgrass.title=Double Tallgrass
+guide.guidance.double_tallgrass.desc=Very high Tall Grass, commonly found in Savannas. It can be grown by Bonemealing Tall Grass, but cannot be harvested back as an item - when broken, it sometimes drops Corn among other Seeds, and when harvested with Shears it only drops 2 normal Tall Grass items. It can, however, be obtained in item form via the Dimensional Fishery.
+guide.guidance.double_fern.title=Large Fern
+guide.guidance.double_fern.desc=A taller variety of Fern, found occasionally in Tiaga, Redwood, and Jungle biomes. It can be grown by Bonemealing Ferns, but cannot be harvested back as an item - when broken, it sometimes drops Tomato Seeds among others, and when harvested with Shears it only drops 2 normal Fern items. It can, however, be obtained in item form via the Dimensional Fishery.
+guide.guidance.deadbush.title=Dead Bush
+guide.guidance.deadbush.desc=A dead, withered Berry Bush, sometimes found in Deserts, Mesas, and Redwood biomes. It drops 0-2 Sticks when broken, though it can be obtained in item form by harvesting it with Shears. Once harvested, it can be re-planted on Sand, Podzol, Hardened Clay, or in a Flower Pot.
+guide.guidance.dandelion.title=Dandelion
+guide.guidance.dandelion.desc=A small, yellow flower found in most biomes and commonly referred to as a weed. It can be crafted into Yellow Dye, or planted on Dirt, Grass, Farmland, Podzol, or in a Flower Pot. Dandelions can also be used to breed and lead Rabbits.
+guide.guidance.poppy.title=Poppy
+guide.guidance.poppy.desc=A small, red flower found in most biomes. It can be crafted into Red Dye, or planted on Dirt, Grass, Farmland, Podzol, or in a Flower Pot.
+guide.guidance.orchid.title=Blue Orchid
+guide.guidance.orchid.desc=A slender, blue flower found in swamp biomes. It can be crafted into Light Blue Dye, or planted on Dirt, Grass, Farmland, Podzol, or in a Flower Pot.
+guide.guidance.allium.title=Allium
+guide.guidance.allium.desc=A pinkish, spherical flower found exclusively in Flower Forest biomes. It can be crafted into Magenta Dye, or planted on Dirt, Grass, Farmland, Podzol, or in a Flower Pot. It also occasionally drops Onions when broken.
+guide.guidance.azure_bluet.title=Azure Bluet
+guide.guidance.azure_bluet.desc=A short clump of white flowers found commonly in Plains biomes. Contrary to their name, they are not azure nor blue in color. It can be crafted into Light Grey Dye, or planted on Dirt, Grass, Farmland, Podzol, or in a Flower Pot.
+guide.guidance.red_tulip.title=Red Tulip
+guide.guidance.red_tulip.desc=One of the four types of Tulips found in Plains and Flower Forests. It can be crafted into Red Dye, or planted on Dirt, Grass, Farmland, Podzol, or in a Flower Pot.
+guide.guidance.orange_tulip.title=Orange Tulip
+guide.guidance.orange_tulip.desc=One of the four types of Tulips found in Plains and Flower Forests. It can be crafted into Orange Dye, or planted on Dirt, Grass, Farmland, Podzol, or in a Flower Pot.
+guide.guidance.white_tulip.title=White Tulip
+guide.guidance.white_tulip.desc=One of the four types of Tulips found in Plains and Flower Forests. It can be crafted into Light Grey Dye, or planted on Dirt, Grass, Farmland, Podzol, or in a Flower Pot.
+guide.guidance.pink_tulip.title=Pink Tulip
+guide.guidance.pink_tulip.desc=One of the four types of Tulips found in Plains and Flower Forests. It can be crafted into Pink Dye, or planted on Dirt, Grass, Farmland, Podzol, or in a Flower Pot.
+guide.guidance.oxeye_daisy.title=Oxeye Daisy
+guide.guidance.oxeye_daisy.desc=A white flower with a large, iconic head, found commonly in Plains biomes. It can be crafted into Light Grey Dye, or planted on Dirt, Grass, Farmland, Podzol, or in a Flower Pot. It can also be used to emblazen a flower charge on a Banner.
+guide.guidance.sunflower.title=Sunflower
+guide.guidance.sunflower.desc=A tall, yellow flower that generates exclusively in Sunflower Plains biomes. Its flower always faces to the east. It can be crafted into Yellow Dye, or planted on Dirt, Grass, Farmland, or Podzol. It can also be Bonemealed to produce more Sunflowers.
+guide.guidance.lilac.title=Lilac
+guide.guidance.lilac.desc=A tall bush with purple flowers that generates commonly in Forests. It can be crafted into Magenta Dye, or planted on Dirt, Grass, Farmland, or Podzol. It can also be Bonemealed to produce more Lilacs.
+guide.guidance.rose_bush.title=Rose Bush
+guide.guidance.rose_bush.desc=A tall bush of thorny Roses that generates commonly in Forests. It can be crafted into Red Dye, or planted on Dirt, Grass, Farmland, or Podzol. It can also be Bonemealed to produce more Rose Bushes.
+guide.guidance.peony.title=Peony
+guide.guidance.peony.desc=A tall bush with large, pink flowers that generates commonly in Forests. It can be crafted into Pink Dye, or planted on Dirt, Grass, Farmland, or Podzol. It can also be Bonemealed to produce more Peonies. Jeb is a fan.
+guide.guidance.brown_mushroom.title=Brown Mushroom
+guide.guidance.brown_mushroom.desc=A squat, brown Mushroom found abundantly in Swamps, caves, and the Nether. It is used in crafting different types of Stew, as well as fermenting certain types of items. It will slowly spread to nearby blocks, provided their light level is low enough, and can be Bonemealed into a Giant Brown Mushroom. It can be planted on many types of blocks, but not in direct sunlight unless it is on Podzol or Mycellium.
+guide.guidance.red_mushroom.title=Red Mushroom
+guide.guidance.red_mushroom.desc=A spotted red Mushroom found occasionally in Swamps, caves, and the Nether. It has fewer uses than Brown Mushrooms, but is also found less commonly. It will slowly spread to nearby blocks, provided their light level is low enough, and can be Bonemealed into a Giant Red Mushroom. It can be planted on many types of blocks, but not in direct sunlight unless it is on Podzol or Mycellium.
 guide.guidance.oak_sapling.title=Oak Sapling
 guide.guidance.oak_sapling.desc=The Sapling of an Oak tree. When planted on Dirt, Podzol, or Grass, it will grow into an Oak tree over time. Bonemeal can be used to make it grow faster.
 guide.guidance.birch_sapling.title=Birch Sapling
@@ -261,6 +303,21 @@ guide.guidance.acacia_sapling.title=Acacia Sapling
 guide.guidance.acacia_sapling.desc=The Sapling of an Acacia tree. When planted on Dirt, Podzol, or Grass, it will grow into an Acacia tree over time. Bonemeal can be used to make it grow faster.
 guide.guidance.dark_oak_sapling.title=Dark Oak Sapling
 guide.guidance.dark_oak_sapling.desc=The Sapling of a Dark Oak tree. When 4 are planted in a 2x2 square on Dirt, Podzol, or Grass, they will grow into a Dark Oak tree over time. Bonemeal can be used to make them grow faster.
+guide.guidance.oak_leaves.title=Oak Leaves
+guide.guidance.oak_leaves.desc=Leaves from an Oak tree. Drops Oak Saplings when harvested normally, though the block itself can be obtained by harvesting it with Shears. Generated Leaves despawn over time if too far away from a Log, while player-placed Leaves will never despawn. All types of Leaves, however, are very flammable and can be used as somewhat inefficient fuel.
+guide.guidance.birch_leaves.title=Birch Leaves
+guide.guidance.birch_leaves.desc=Leaves from a Birch tree. Drops Birch Saplings when harvested normally, though the block itself can be obtained by harvesting it with Shears. Generated Leaves despawn over time if too far away from a Log, while player-placed Leaves will never despawn. All types of Leaves, however, are very flammable and can be used as somewhat inefficient fuel.
+guide.guidance.spruce_leaves.title=Spruce Leaves
+guide.guidance.spruce_leaves.desc=Leaves from a Spruce tree. Drops Oak Saplings when harvested normally, though the block itself can be obtained by harvesting it with Shears. Generated Leaves despawn over time if too far away from a Log, while player-placed Leaves will never despawn. All types of Leaves, however, are very flammable and can be used as somewhat inefficient fuel.
+guide.guidance.jungle_leaves.title=Jungle Leaves
+guide.guidance.jungle_leaves.desc=Leaves from a Jungle tree. Occasionally drops Jungle Saplings when harvested normally, though the block itself can be obtained by harvesting it with Shears. Generated Leaves despawn over time if too far away from a Log, while player-placed Leaves will never despawn. All types of Leaves, however, are very flammable and can be used as somewhat inefficient fuel.
+guide.guidance.oak_leaves.title=Acacia Leaves
+guide.guidance.acacia_leaves.desc=Leaves from an Acacia tree. Drops Acacia Saplings when harvested normally, though the block itself can be obtained by harvesting it with Shears. Generated Leaves despawn over time if too far away from a Log, while player-placed Leaves will never despawn. All types of Leaves, however, are very flammable and can be used as somewhat inefficient fuel.
+minechiridion.dark_oak_leaves.desc=Leaves from a Dark Oak tree. Occasionally drops Dark Oak Saplings when harvested normally, though the block itself can be obtained by harvesting it with Shears. Generated Leaves despawn over time if too far away from a Log, while player-placed Leaves will never despawn. All types of Leaves, however, are very flammable and can be used as somewhat inefficient fuel.
+guide.guidance.sponge_leaves.title=Sponge
+guide.guidance.sponge.desc=A dry Sponge block. When placed in Water, it will remove all the Water sources within a certain area and become Wet. The Water, however, is prone to re-filling in around the Sponge afterward, so it is easier to remove water located in a small, enclosed area.
+guide.guidance.wet_sponge.title=Wet Sponge
+guide.guidance.wet_sponge.desc=A wet Sponge block. Doesn't absorb Water like a dry Sponge would, but it can be dried again by smelting it.
 
 
 
@@ -291,6 +348,8 @@ guide.guidance.diorite.title=Diorite
 guide.guidance.diorite.desc=A white, speckled rock found underground in any biome. Mostly useful for decoration.
 guide.guidance.andesite.title=Andesite
 guide.guidance.andesite.desc=A greyish rock found underground in any biome. Mostly useful for decoration.
+guide.guidance.sandstone.title=Sandstone
+guide.guidance.sandstone.desc=A block of compressed Sand found commonly under the topsoil of Beaches and Deserts. Useful for decoration.
 guide.guidance.bedrock.title=Bedrock
 guide.guidance.bedrock.desc=The hardest minable stone in any dimension. In most dimensions, it can be found at the very bottom of the world, just above the Invincium layer. It deals enormous durability damage to any Pickaxe used to mine it, is impervious to explosions, and can only be harvested with a Titanium Pickaxe or better. It can, however, be used to craft Bedrock Tools, which have the highest durability of any toolset.
 
@@ -303,6 +362,60 @@ guide.guidance.iron_ore.title=Iron Ore
 guide.guidance.iron_ore.desc=A stone block with traces of Iron embedded in it. It can be found fairly commonly in medium-sized veins at most altitudes below sea level.
 guide.guidance.gold_ore.title=Gold Ore
 guide.guidance.gold_ore.desc=A stone block with traces of Gold embedded in it. It can be found semi-rarely in small veins deep underground, but can also be found in enormous quantities at high altitudes in Mesa biomes.
+guide.guidance.lapis_ore.title=Lapis Lazuli Ore
+guide.guidance.lapis_ore.desc=A stone block with traces of Lapis Lazuli embedded in it. It can be found semi-rarely in small veins deep underground. It drops 4-8 Lapis Lazuli when mined without Silk Touch, though this number can be increased by mining it with Fortune.
+
+
+
+## Resource ##
+guide.guidance.iron_block.title=Block of Iron
+guide.guidance.iron_block.desc=A solid block of Iron. Mostly useful for decoration and compressed storage, but can also be used in a Beacon Base.
+guide.guidance.gold_block.title=Block of Gold
+guide.guidance.gold_block.desc=A solid block of Gold. Mostly useful for decoration, compressed storage, and displaying your gratuitous wealth, but can also be used in a Beacon Base.
+guide.guidance.lapis_block.title=Lapis Lazuli Block
+guide.guidance.lapis_block.desc=A solid block of Lapis Lazuli. Mostly useful for decoration and compressed storage.
+
+
+
+## Glass ##
+guide.guidance.glass.title=Glass
+guide.guidance.glass.desc=A block of raw glass. It was roughly hewn of raw Sand, so its surface isn't as clear as that of Polished Glass. Useful for decoration, as well as several recipes.
+
+
+
+## Misc Building Blocks ##
+guide.guidance.white_wool.title=Wool
+guide.guidance.white_wool.desc=A normal, colorless block of Wool, commonly obtained by shearing Sheep. It can be dyed 15 different colors.
+guide.guidance.orange_wool.title=Orange Wool
+guide.guidance.orange_wool.desc=An orange-dyed block of Wool, created with Orange pigments.
+guide.guidance.magenta_wool.title=Magenta Wool
+guide.guidance.magenta_wool.desc=A magenta-dyed block of Wool, created with Magenta pigments.
+guide.guidance.light_blue_wool.title=Light Blue Wool
+guide.guidance.light_blue_wool.desc=A light-blue-dyed block of Wool, created with Light Blue pigments.
+guide.guidance.yellow_wool.title=Yellow Wool
+guide.guidance.yellow_wool.desc=A yellow-dyed block of Wool, created with ground-up Dandelion pigment.
+guide.guidance.lime_wool.title=Lime Wool
+guide.guidance.lime_wool.desc=A lime-dyed block of Wool, created with Lime pigments.
+guide.guidance.pink_wool.title=Pink Wool
+guide.guidance.pink_wool.desc=A pink-dyed block of Wool, created with Pink pigments. It can very rarely be found on naturally spawning Sheep.
+guide.guidance.gray_wool.title=Gray Wool
+guide.guidance.gray_wool.desc=A grey-dyed block of Wool, created with Grey pigments. It can sometimes be found on naturally spawning Sheep.
+guide.guidance.light_gray_wool.title=Light Gray Wool
+guide.guidance.light_gray_wool.desc=A light-grey-dyed block of Wool, created with Light Grey pigments. It can sometimes be found on naturally spawning Sheep.
+guide.guidance.cyan_wool.title=Cyan Wool
+guide.guidance.cyan_wool.desc=A cyan-dyed block of Wool, created with Cyan pigments.
+guide.guidance.purple_wool.title=Purple Wool
+guide.guidance.purple_wool.desc=A purple-dyed block of Wool, created with Purple pigments.
+guide.guidance.blue_wool.title=Blue Wool
+guide.guidance.blue_wool.desc=A blue-dyed block of Wool, created with Lapis Lazuli dust.
+guide.guidance.brown_wool.title=Brown Wool
+guide.guidance.brown_wool.desc=A brown-dyed block of Wool, created with ground-up Cocoa Beans. It can rarely be found on naturally spawning Sheep.
+guide.guidance.green_wool.title=Green Wool
+guide.guidance.green_wool.desc=A green-dyed block of Wool, created with ground-up Cactus pigment.
+guide.guidance.red_wool.title=Red Wool
+guide.guidance.red_wool.desc=A red-dyed block of Wool, created with ground-up Rose pigment.
+guide.guidance.black_wool.title=Black Wool
+guide.guidance.black_wool.desc=A black-dyed block of Wool, created with Squid Ink. It can sometimes be found on naturally spawning Sheep.
 
 
 
@@ -319,26 +432,83 @@ guide.guidance.acacia_log.title=Acacia Wood
 guide.guidance.acacia_log.desc=A log from an Acacia tree. It is flammable and can be used as fuel, though the more efficient method is smelting it into Charcoal. It can also be crafted or milled into Wood Planks and Boards.
 guide.guidance.dark_oak_log.title=Dark Oak Wood
 guide.guidance.dark_oak_log.desc=A log from a Dark Oak tree. It is flammable and can be used as fuel, though the more efficient method is smelting it into Charcoal. It can also be crafted or milled into Wood Planks and Boards.
+guide.guidance.oak_slab.title=Oak Plank Slab
+guide.guidance.oak_slab.desc=A decorative Half Slab of Oak Wood Planks.
 guide.guidance.oak_planks.title=Oak Wood Planks
 guide.guidance.oak_planks.desc=Planks made from Oak Wood. Useful for decoration, as well as many crafting recipes. Is flammable, and can be used as fuel.
+guide.guidance.birch_slab.title=Birch Plank Slab
+guide.guidance.birch_slab.desc=A decorative Half Slab of Birch Wood Planks.
 guide.guidance.birch_planks.title=Birch Wood Planks
 guide.guidance.birch_planks.desc=Planks made from Birch Wood. Useful for decoration, as well as many crafting recipes. Is flammable, and can be used as fuel.
+guide.guidance.spruce_slab.title=Spruce Plank Slab
+guide.guidance.spruce_slab.desc=A decorative Half Slab of Spruce Wood Planks.
 guide.guidance.spruce_planks.title=Spruce Wood Planks
 guide.guidance.spruce_planks.desc=Planks made from Spruce Wood. Useful for decoration, as well as many crafting recipes. Is flammable, and can be used as fuel.
+guide.guidance.jungle_slab.title=Jungle Plank Slab
+guide.guidance.jungle_slab.desc=A decorative Half Slab of Jungle Wood Planks.
 guide.guidance.jungle_planks.title=Jungle Wood Planks
 guide.guidance.jungle_planks.desc=Planks made from Jungle Wood. Useful for decoration, as well as many crafting recipes. Is flammable, and can be used as fuel.
+guide.guidance.acacia_slab.title=Acacia Plank Slab
+guide.guidance.acacia_slab.desc=A decorative Half Slab of Acacia Wood Planks.
 guide.guidance.acacia_planks.title=Acacia Wood Planks
 guide.guidance.acacia_planks.desc=Planks made from Acacia Wood. Useful for decoration, as well as many crafting recipes. Is flammable, and can be used as fuel.
+guide.guidance.dark_oak_slab.title=Dark Oak Plank Slab
+guide.guidance.dark_oak_slab.desc=A decorative Half Slab of Dark Oak Wood Planks.
 guide.guidance.dark_oak_planks.title=Dark Oak Wood Planks
 guide.guidance.dark_oak_planks.desc=Planks made from Dark Oak Wood. Useful for decoration, as well as many crafting recipes. Is flammable, and can be used as fuel.
 
 
+
 ## Stone Building Blocks ##
+guide.guidance.cobblestone_slab.title=Cobblestone Slab
+guide.guidance.cobblestone_slab.desc=A decorative Half Slab of Cobblestone.
 guide.guidance.cobblestone.title=Cobblestone
 guide.guidance.cobblestone.desc=A cobbled block of Stone, obtained by mining Stone without Silk Touch. Used in many crafting recipes.
+guide.guidance.stone_slab.title=Stone Slab
+guide.guidance.stone_slab.desc=A smooth, decorative Half Slab of Stone.
+guide.guidance.stone_brick_slab.title=Stone Brick Slab
+guide.guidance.stone_brick_slab.desc=A decorative Half Slab of Stone Bricks.
 guide.guidance.polished_granite.title=Polished Granite
 guide.guidance.polished_granite.desc=A polished, decorative block of Granite.
 guide.guidance.polished_diorite.title=Polished Diorite
 guide.guidance.polished_diorite.desc=A polished, decorative block of Diorite.
 guide.guidance.polished_andesite.title=Polished Andesite
 guide.guidance.polished_andesite.desc=A polished, decorative block of Andesite.
+guide.guidance.sandstone_slab.title=Sandstone Slab
+guide.guidance.sandstone_slab.desc=A decorative Half Slab of Sandstone.
+guide.guidance.smooth_sandstone.title=Polished Sandstone
+guide.guidance.smooth_sandstone.desc=A polished, decorative block of Sandstone.
+guide.guidance.chiseled_sandstone.title=Chiseled Sandstone
+guide.guidance.chiseled_sandstone.desc=A block of Polished Sandstone that appears to have some sort of hieroglyphs chiseled into it. Who carved these?
+guide.guidance.red_sandstone_slab.title=Red Sandstone Slab
+guide.guidance.red_sandstone_slab.desc=A decorative Half Slab of Red Sandstone.
+guide.guidance.brick_slab.title=Clay Brick Slab
+guide.guidance.brick_slab.desc=A decorative Half Slab of Clay Bricks.
+guide.guidance.nether_brick_slab.title=Nether Brick Slab
+guide.guidance.nether_brick_slab.desc=A decorative Half Slab of Nether Bricks.
+guide.guidance.purpur_slab.title=Purpur Tile Slab
+guide.guidance.purpur_slab.desc=A decorative Half Slab of Purpur Tiles.
+
+
+
+## Utility ##
+guide.guidance.web.title=Cobweb
+guide.guidance.web.desc=A sticky block of Spider Web, mostly found in Abandoned Mineshafts. It is flammable, and greatly slows any entity that passes through it, other than Spiders and Cave Spiders. It drops String when harvested with a Sword, and drops itself when harvested with Shears.
+guide.guidance.bed.title=Bed
+guide.guidance.bed.desc=A standard-looking Bed made of Wood and Wool. Right-clicking it lets you sleep through the night, and, mysteriously, seems to cause any current weather to dissapate. In multiplayer, all players must be sleeping in a Bed at the same time for this to work.
+
+
+
+## Redstone ##
+guide.guidance.golden_rail.title=Powered Rail
+guide.guidance.golden_rail.desc=A special, golden piece of Minecart track that, when powered, increases the velocity of any Minecart that moves over it. While unpowered, it does the opposite, acting as a form of breaks. It can connect to adjacent rails located one block above it, but, unlike normal Rails, cannot curve to connect to rails on two adjacent sides.
+guide.guidance.detector_rail.title=Detector Rail
+guide.guidance.detector_rail.desc=A special type of rail that emits a Redstone signal whenever a Minecart passes over it. It also outputs a Comparator signal relative to the inventory of any Chest or Hopper Minecarts that pass over it. It can connect to adjacent rails located one block above it, but, unlike normal Rails, cannot curve to connect to rails on two adjacent sides.
+guide.guidance.piston.title=Piston
+guide.guidance.piston.desc=A Redstone mechanism used for pushing blocks from place to place. When powered, the Piston's "head" will extend in the direction it is facing, pushing any adjacent blocks forward one block. Pistons can push up to 12 blocks at once, and beyond that they will simply refuse to activate. Additionally, certain blocks will break rather than move when pushed, such as Buttons, Levers, and Torches, and some blocks, such as Obsidian, Chests, Furnaces, and Invincium, cannot be pushed at all.
+guide.guidance.sticky_piston.title=Sticky Piston
+guide.guidance.sticky_piston.desc=A Piston with Slime slathered over its head. It behaves just like a normal Piston, but can pull blocks back towards it in addition to pushing them.
+guide.guidance.dispenser.title=Dispenser
+guide.guidance.dispenser.desc=A Redstone mechanism used for dispensing items. It works similarly to a Dropper, but when dispensing projectiles such as Snowballs, Eggs, Arrows, Splash Potions, etc, it will throw them in their projectile form rather than drop them as an item. It will also dispense activated TNT when firing TNT blocks, place Pumpkins and Wither Skulls on top of Golem/Wither bases, place Boats and Minecarts on Water/Rails, and place/remove Water and Lava sources via buckets.
+guide.guidance.noteblock.title=Note Block
+guide.guidance.noteblock.desc=A Redstone mechanism that plays a note when powered. Right-clicking it changes its pitch, and the instrument played varies based on the material of the block located below it.
