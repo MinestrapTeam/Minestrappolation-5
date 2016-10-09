@@ -308,13 +308,24 @@ guide.guidance.oak_leaves.desc=Leaves from an Oak tree. Drops Oak Saplings when 
 guide.guidance.birch_leaves.title=Birch Leaves
 guide.guidance.birch_leaves.desc=Leaves from a Birch tree. Drops Birch Saplings when harvested normally, though the block itself can be obtained by harvesting it with Shears. Generated Leaves despawn over time if too far away from a Log, while player-placed Leaves will never despawn. All types of Leaves, however, are very flammable and can be used as somewhat inefficient fuel.
 guide.guidance.spruce_leaves.title=Spruce Leaves
-guide.guidance.spruce_leaves.desc=Leaves from a Spruce tree. Drops Oak Saplings when harvested normally, though the block itself can be obtained by harvesting it with Shears. Generated Leaves despawn over time if too far away from a Log, while player-placed Leaves will never despawn. All types of Leaves, however, are very flammable and can be used as somewhat inefficient fuel.
+guide.guidance.spruce_leaves.desc=Leaves from a Spruce tree. Drops Spruce Saplings when harvested normally, though the block itself can be obtained by harvesting it with Shears. Generated Leaves despawn over time if too far away from a Log, while player-placed Leaves will never despawn. All types of Leaves, however, are very flammable and can be used as somewhat inefficient fuel.
 guide.guidance.jungle_leaves.title=Jungle Leaves
 guide.guidance.jungle_leaves.desc=Leaves from a Jungle tree. Occasionally drops Jungle Saplings when harvested normally, though the block itself can be obtained by harvesting it with Shears. Generated Leaves despawn over time if too far away from a Log, while player-placed Leaves will never despawn. All types of Leaves, however, are very flammable and can be used as somewhat inefficient fuel.
-guide.guidance.oak_leaves.title=Acacia Leaves
+guide.guidance.acacia_leaves.title=Acacia Leaves
 guide.guidance.acacia_leaves.desc=Leaves from an Acacia tree. Drops Acacia Saplings when harvested normally, though the block itself can be obtained by harvesting it with Shears. Generated Leaves despawn over time if too far away from a Log, while player-placed Leaves will never despawn. All types of Leaves, however, are very flammable and can be used as somewhat inefficient fuel.
-minechiridion.dark_oak_leaves.desc=Leaves from a Dark Oak tree. Occasionally drops Dark Oak Saplings when harvested normally, though the block itself can be obtained by harvesting it with Shears. Generated Leaves despawn over time if too far away from a Log, while player-placed Leaves will never despawn. All types of Leaves, however, are very flammable and can be used as somewhat inefficient fuel.
-guide.guidance.sponge_leaves.title=Sponge
+guide.guidance.dark_oak_leaves.title=Dark Oak Leaves
+guide.guidance.dark_oak_leaves.desc=Leaves from a Dark Oak tree. Occasionally drops Dark Oak Saplings when harvested normally, though the block itself can be obtained by harvesting it with Shears. Generated Leaves despawn over time if too far away from a Log, while player-placed Leaves will never despawn. All types of Leaves, however, are very flammable and can be used as somewhat inefficient fuel.
+guide.guidance.brown_mushroom_block.title=Brown Mushroom Block
+guide.guidance.brown_mushroom_block.desc=A block from a Huge Brown Mushroom. It sometimes drops a Brown Mushroom when broken, unless harvested with Silk Touch. Though it doesn't have as many uses as normal Brown Mushrooms, it can be used as fuel or melted into more efficient stew.
+guide.guidance.red_mushroom_block.title=Red Mushroom Block
+guide.guidance.red_mushroom_block.desc=A block from a Huge Red Mushroom. It sometimes drops a Red Mushroom when broken, unless harvested with Silk Touch. Though it doesn't have as many uses as normal Red Mushrooms, it can be used as fuel or melted into more efficient stew.
+guide.guidance.reeds.title=Sugar Cane
+guide.guidance.reeds.desc=A bundle of thin, bamboo-like stalks often found growing on the coasts of Rivers, lakes, and Oceans. Can be planted on any Sand, Dirt, Grass, or Podzol block that has a neighboring Water block to produce a Sugar Cane plant, which will grow up to 3 blocks tall before stopping.
+guide.guidance.cactus.title=Cactus
+guide.guidance.cactus.desc=A prickly, thorn-coated plant found in Desert biomes. While its short arms won't hurt the player, running into the base will, making it useful for protecting your yard from monsters. When broken, it can be re-planted on Sand, Red Sand, or other Cacti. A single Cactus block will grow to 3 block high over time, but they can be manually stacked as high as you want. It has few crafting uses, but can be smelted into Green Dye.
+guide.guidance.pumpkin.title=Pumpkin
+guide.guidance.pumpkin.desc=A cube-shaped Pumpkin with the vine still growing on one side. Though it does not seem to posess any unique qualities, it has been found that Pumpkins have some connection with Golemancy, and can be placed in certain configurations with other blocks to form different types of utility Golems. If you don't want to make it into food, you could always try carving it. Wearing a Pumpkin on your head is said to help avoid the wrath of Endermen, but then again, you wouldn't be able to see a thing...
+guide.guidance.sponge.title=Sponge
 guide.guidance.sponge.desc=A dry Sponge block. When placed in Water, it will remove all the Water sources within a certain area and become Wet. The Water, however, is prone to re-filling in around the Sponge afterward, so it is easier to remove water located in a small, enclosed area.
 guide.guidance.wet_sponge.title=Wet Sponge
 guide.guidance.wet_sponge.desc=A wet Sponge block. Doesn't absorb Water like a dry Sponge would, but it can be dried again by smelting it.
@@ -334,8 +345,22 @@ guide.guidance.sand.title=Sand
 guide.guidance.sand.desc=A block of Sand, found extremely commonly in Beaches, Deserts, Rivers, and Oceans. It can sustain Cacti and Dead Shrubs, and is affected by gravity. While Sand blocks themselves are limited in uses, they are used in making Sandstone and Glass, both highly useful decorative blocks.
 guide.guidance.red_sand.title=Red Sand
 guide.guidance.red_sand.desc=A red-tinted Sand block found in Mesa biomes. It functions identically to normal Sand, but can be crafted into Red Sandstone instead of normal Sandstone.
+guide.guidance.clay.title=Clay
+guide.guidance.clay.desc=A block of thick, clumpy earth found commonly at the bottoms of Swamps and River beds. It drops 4 Clay Balls when harvested without Silk Touch, and the block itself can be smelted into Hardened Clay.
 guide.guidance.gravel.title=Gravel
 guide.guidance.gravel.desc=A block of crumbled stones found commonly in Overworld caves, as well as the Nether. Occasionally known as "Miner's Bane", Gravel can often kill players who dig upwards into a Gravel deposit, as it is affected by gravity. It can, however, be sifted to produce some useful items.
+guide.guidance.soul_sand.title=Soul Sand
+guide.guidance.soul_sand.desc=A brown, sticky sand that slows entities walking through it. It could be a trick of the light, but the shadows on the surface look almost like faces, and it seems to be emitting an almost imperceptible screaming sound...
+
+
+
+## Frozen Blocks ##
+guide.guidance.snow_layer.title=Snow
+guide.guidance.snow_layer.desc=A thin layer of Snow, often found coating the ground in snowy biomes. Snow layers can be stacked up to 8 times, with a single layer being 2 pixels tall, and 8 layers being a full block. When broken, they drop nothing unless harvested with a Shovel, in which case they drop a number of Snowballs corresponding to the number of stacked layers. Snow Layers will melt over time when placed near a light source. Snowy weather will also create Snow Layers on the ground, though they will not stack any higher than one layer.
+guide.guidance.snow.title=Block of Snow
+guide.guidance.snow.desc=A solid block of Snow. Mostly decorative, though its fast mining speed makes it useful as scaffolding. It drops nothing when broken, unless harvested with a Shovel, in which case it drops 4 Snowballs. Unlike Snow Layers, it does not melt when near light sources.
+guide.guidance.ice.title=Ice
+guide.guidance.ice.desc=A block of frozen water. Ice can be found covering the rivers and lakes in snowy biomes, and drops nothing when broken unless harvested with Silk Touch. It is slippery, and is thus often useful for transporting items or entities long distances. Any Water sources will turn into Ice over time when placed in a snowy biome with exposure to the sun, making it easily obtainable and renewable. Like Snow Layers, Ice will melt into a Water source when placed near any light source.
 
 
 
@@ -350,6 +375,12 @@ guide.guidance.andesite.title=Andesite
 guide.guidance.andesite.desc=A greyish rock found underground in any biome. Mostly useful for decoration.
 guide.guidance.sandstone.title=Sandstone
 guide.guidance.sandstone.desc=A block of compressed Sand found commonly under the topsoil of Beaches and Deserts. Useful for decoration.
+guide.guidance.netherrack.title=Netherrack
+guide.guidance.netherrack.desc=A strange, somewhat mushy, red block of stone found just about everywhere in the Nether. The stench it emits is nearly unbearable, and it's unclear what gives it such a vivid color, but it is quite useful in its ability to sustain a flame indefinitely.
+guide.guidance.glowstone.title=Glowstone
+guide.guidance.glowstone.desc=A glowing block of lumpy, luminescent pebbles that seem to be stuck together with a great deal of Glowmoss sap. It can be found growing in almost stalactite-like clusters dripping from the roof of the Nether. It emits a bright light level when placed, making it useful for both decorative and underwater lighting. It drops 2-4 Glowstone Dust when mined, unless harvested with Silk Touch.
+guide.guidance.obsidian.title=Obsidian
+guide.guidance.obsidian.desc=A block of shiny, black volcanic glass formed by rapidly cooled Lava. It seems to possess trans-dimensional properties, and is said to have been frequently used by the Farlanders before their dissapearance.
 guide.guidance.bedrock.title=Bedrock
 guide.guidance.bedrock.desc=The hardest minable stone in any dimension. In most dimensions, it can be found at the very bottom of the world, just above the Invincium layer. It deals enormous durability damage to any Pickaxe used to mine it, is impervious to explosions, and can only be harvested with a Titanium Pickaxe or better. It can, however, be used to craft Bedrock Tools, which have the highest durability of any toolset.
 
@@ -362,8 +393,12 @@ guide.guidance.iron_ore.title=Iron Ore
 guide.guidance.iron_ore.desc=A stone block with traces of Iron embedded in it. It can be found fairly commonly in medium-sized veins at most altitudes below sea level.
 guide.guidance.gold_ore.title=Gold Ore
 guide.guidance.gold_ore.desc=A stone block with traces of Gold embedded in it. It can be found semi-rarely in small veins deep underground, but can also be found in enormous quantities at high altitudes in Mesa biomes.
+guide.guidance.redstone_ore.title=Redstone Ore
+guide.guidance.redstone_ore.desc=A stone block with Redstone Dust embedded in it. It can be found somewhat often in medium-sized veins deep underground. It drops 4-5 Redstone Dust when mined without Silk Touch, though this number can be increased by mining it with Fortune.
 guide.guidance.lapis_ore.title=Lapis Lazuli Ore
 guide.guidance.lapis_ore.desc=A stone block with traces of Lapis Lazuli embedded in it. It can be found semi-rarely in small veins deep underground. It drops 4-8 Lapis Lazuli when mined without Silk Touch, though this number can be increased by mining it with Fortune.
+guide.guidance.diamond_ore.title=Diamond Ore
+guide.guidance.diamond_ore.desc=A stone block with Diamonds embedded in it. It can be found rarely in small veins very deep underground. It drops 1 Diamond when mined without Silk Touch, though this number can be increased by mining it with Fortune.
 
 
 
@@ -374,12 +409,46 @@ guide.guidance.gold_block.title=Block of Gold
 guide.guidance.gold_block.desc=A solid block of Gold. Mostly useful for decoration, compressed storage, and displaying your gratuitous wealth, but can also be used in a Beacon Base.
 guide.guidance.lapis_block.title=Lapis Lazuli Block
 guide.guidance.lapis_block.desc=A solid block of Lapis Lazuli. Mostly useful for decoration and compressed storage.
+guide.guidance.diamond_block.title=Block of Diamond
+guide.guidance.diamond_block.desc=A solid block of Diamonds. Mostly useful for decoration, compressed storage, and displaying your gratuitous wealth, but can also be used in a Beacon Base.
 
 
 
 ## Glass ##
 guide.guidance.glass.title=Glass
 guide.guidance.glass.desc=A block of raw glass. It was roughly hewn of raw Sand, so its surface isn't as clear as that of Polished Glass. Useful for decoration, as well as several recipes.
+guide.guidance.white_stained_glass.title=White Stained Glass
+guide.guidance.white_stained_glass.desc=A Glass block stained White with ground-up Bone pigment.
+guide.guidance.orange_stained_glass.title=Orange Stained Glass
+guide.guidance.orange_stained_glass.desc=A Glass block stained Orange with Orange pigments.
+guide.guidance.magenta_stained_glass.title=Magenta Stained Glass
+guide.guidance.magenta_stained_glass.desc=A Glass block stained Magenta with Magenta pigments.
+guide.guidance.light_blue_stained_glass.title=Light Blue Stained Glass
+guide.guidance.light_blue_stained_glass.desc=A Glass block stained Light Blue with Light Blue pigments.
+guide.guidance.yellow_stained_glass.title=Yellow Stained Glass
+guide.guidance.yellow_stained_glass.desc=A Glass block stained Yellow with ground-up Dandellion pigment.
+guide.guidance.lime_stained_glass.title=Lime Stained Glass
+guide.guidance.lime_stained_glass.desc=A Glass block stained Lime with Lime pigments.
+guide.guidance.pink_stained_glass.title=Pink Stained Glass
+guide.guidance.pink_stained_glass.desc=A Glass block stained Pink with Pink pigments.
+guide.guidance.gray_stained_glass.title=Gray Stained Glass
+guide.guidance.gray_stained_glass.desc=A Glass block stained Gray with Gray pigments.
+guide.guidance.light_gray_stained_glass.title=Light Gray Stained Glass
+guide.guidance.light_gray_stained_glass.desc=A Glass block stained Light Gray with Light Gray pigments.
+guide.guidance.cyan_stained_glass.title=Cyan Stained Glass
+guide.guidance.cyan_stained_glass.desc=A Glass block stained Cyan with Cyan pigments.
+guide.guidance.purple_stained_glass.title=Purple Stained Glass
+guide.guidance.purple_stained_glass.desc=A Glass block stained Purple with Purple pigments.
+guide.guidance.blue_stained_glass.title=Blue Stained Glass
+guide.guidance.blue_stained_glass.desc=A Glass block stained Blue with Lapis Lazuli dust.
+guide.guidance.brown_stained_glass.title=Brown Stained Glass
+guide.guidance.brown_stained_glass.desc=A Glass block stained Brown with ground-up Cocoa Bean pigment.
+guide.guidance.green_stained_glass.title=Green Stained Glass
+guide.guidance.green_stained_glass.desc=A Glass block stained Green with ground-up Cactus pigment.
+guide.guidance.red_stained_glass.title=Red Stained Glass
+guide.guidance.red_stained_glass.desc=A Glass block stained Red with ground-up Rose pigment.
+guide.guidance.black_stained_glass.title=Black Stained Glass
+guide.guidance.black_stained_glass.desc=A Glass block stained Black with Squid ink.
 
 
 
@@ -434,26 +503,38 @@ guide.guidance.dark_oak_log.title=Dark Oak Wood
 guide.guidance.dark_oak_log.desc=A log from a Dark Oak tree. It is flammable and can be used as fuel, though the more efficient method is smelting it into Charcoal. It can also be crafted or milled into Wood Planks and Boards.
 guide.guidance.oak_slab.title=Oak Plank Slab
 guide.guidance.oak_slab.desc=A decorative Half Slab of Oak Wood Planks.
+guide.guidance.oak_stairs.title=Oak Plank Stairs
+guide.guidance.oak_stairs.desc=Decorative Oak Plank Stairs. They can be placed facing 8 different directions, and will connect to neighboring Stairs.
 guide.guidance.oak_planks.title=Oak Wood Planks
 guide.guidance.oak_planks.desc=Planks made from Oak Wood. Useful for decoration, as well as many crafting recipes. Is flammable, and can be used as fuel.
 guide.guidance.birch_slab.title=Birch Plank Slab
 guide.guidance.birch_slab.desc=A decorative Half Slab of Birch Wood Planks.
+guide.guidance.birch_stairs.title=Birch Plank Stairs
+guide.guidance.birch_stairs.desc=Decorative Birch Plank Stairs. They can be placed facing 8 different directions, and will connect to neighboring Stairs.
 guide.guidance.birch_planks.title=Birch Wood Planks
 guide.guidance.birch_planks.desc=Planks made from Birch Wood. Useful for decoration, as well as many crafting recipes. Is flammable, and can be used as fuel.
 guide.guidance.spruce_slab.title=Spruce Plank Slab
 guide.guidance.spruce_slab.desc=A decorative Half Slab of Spruce Wood Planks.
+guide.guidance.spruce_stairs.title=Spruce Plank Stairs
+guide.guidance.spruce_stairs.desc=Decorative Spruce Plank Stairs. They can be placed facing 8 different directions, and will connect to neighboring Stairs.
 guide.guidance.spruce_planks.title=Spruce Wood Planks
 guide.guidance.spruce_planks.desc=Planks made from Spruce Wood. Useful for decoration, as well as many crafting recipes. Is flammable, and can be used as fuel.
 guide.guidance.jungle_slab.title=Jungle Plank Slab
 guide.guidance.jungle_slab.desc=A decorative Half Slab of Jungle Wood Planks.
+guide.guidance.jungle_stairs.title=Jungle Plank Stairs
+guide.guidance.jungle_stairs.desc=Decorative Jungle Plank Stairs. They can be placed facing 8 different directions, and will connect to neighboring Stairs.
 guide.guidance.jungle_planks.title=Jungle Wood Planks
 guide.guidance.jungle_planks.desc=Planks made from Jungle Wood. Useful for decoration, as well as many crafting recipes. Is flammable, and can be used as fuel.
 guide.guidance.acacia_slab.title=Acacia Plank Slab
 guide.guidance.acacia_slab.desc=A decorative Half Slab of Acacia Wood Planks.
+guide.guidance.acacia_stairs.title=Acacia Plank Stairs
+guide.guidance.acacia_stairs.desc=Decorative Acacia Plank Stairs. They can be placed facing 8 different directions, and will connect to neighboring Stairs.
 guide.guidance.acacia_planks.title=Acacia Wood Planks
 guide.guidance.acacia_planks.desc=Planks made from Acacia Wood. Useful for decoration, as well as many crafting recipes. Is flammable, and can be used as fuel.
 guide.guidance.dark_oak_slab.title=Dark Oak Plank Slab
 guide.guidance.dark_oak_slab.desc=A decorative Half Slab of Dark Oak Wood Planks.
+guide.guidance.dark_oak_stairs.title=Dark Oak Plank Stairs
+guide.guidance.dark_oak_stairs.desc=Decorative Dark Oak Plank Stairs. They can be placed facing 8 different directions, and will connect to neighboring Stairs.
 guide.guidance.dark_oak_planks.title=Dark Oak Wood Planks
 guide.guidance.dark_oak_planks.desc=Planks made from Dark Oak Wood. Useful for decoration, as well as many crafting recipes. Is flammable, and can be used as fuel.
 
@@ -462,12 +543,26 @@ guide.guidance.dark_oak_planks.desc=Planks made from Dark Oak Wood. Useful for d
 ## Stone Building Blocks ##
 guide.guidance.cobblestone_slab.title=Cobblestone Slab
 guide.guidance.cobblestone_slab.desc=A decorative Half Slab of Cobblestone.
+guide.guidance.cobblestone_stairs.title=Cobblestone Stairs
+guide.guidance.cobblestone_stairs.desc=Decorative Cobblestone Stairs. They can be placed facing 8 different directions, and will connect to neighboring Stairs.
 guide.guidance.cobblestone.title=Cobblestone
 guide.guidance.cobblestone.desc=A cobbled block of Stone, obtained by mining Stone without Silk Touch. Used in many crafting recipes.
+guide.guidance.mossy_cobblestone.title=Mossy Cobblestone
+guide.guidance.mossy_cobblestone.desc=A block of Cobblestone with Moss growing between the cracks. It must have been sitting in one spot for quite some time.
 guide.guidance.stone_slab.title=Stone Slab
 guide.guidance.stone_slab.desc=A smooth, decorative Half Slab of Stone.
 guide.guidance.stone_brick_slab.title=Stone Brick Slab
 guide.guidance.stone_brick_slab.desc=A decorative Half Slab of Stone Bricks.
+guide.guidance.stone_brick_stairs.title=Stone Brick Stairs
+guide.guidance.stone_brick_stairs.desc=Decorative Stone Brick Stairs. They can be placed facing 8 different directions, and will connect to neighboring Stairs.
+guide.guidance.stone_bricks.title=Stone Bricks
+guide.guidance.stone_bricks.desc=A block of large, sturdy bricks of Stone, once commonly used in the grand Strongholds of ancient Humans.
+guide.guidance.mossy_stone_bricks.title=Mossy Stone Bricks
+guide.guidance.mossy_stone_bricks.desc=Stone Bricks with Moss growing between the cracks. They must have been sitting in one spot for quite some time.
+guide.guidance.cracked_stone_bricks.title=Cracked Stone Bricks
+guide.guidance.cracked_stone_bricks.desc=A block of weathered, decrepit-looking Stone Bricks - though the effect could probably be replicated by exposing them to extreme heat.
+guide.guidance.chiseled_stone_bricks.title=Chiseled Stone
+guide.guidance.chiseled_stone_bricks.desc=A smooth block of Stone with a decorative pattern carved into it.
 guide.guidance.polished_granite.title=Polished Granite
 guide.guidance.polished_granite.desc=A polished, decorative block of Granite.
 guide.guidance.polished_diorite.title=Polished Diorite
@@ -476,30 +571,130 @@ guide.guidance.polished_andesite.title=Polished Andesite
 guide.guidance.polished_andesite.desc=A polished, decorative block of Andesite.
 guide.guidance.sandstone_slab.title=Sandstone Slab
 guide.guidance.sandstone_slab.desc=A decorative Half Slab of Sandstone.
+guide.guidance.sandstone_stairs.title=Sandstone Stairs
+guide.guidance.sandstone_stairs.desc=Decorative Sandstone Stairs. They can be placed facing 8 different directions, and will connect to neighboring Stairs.
 guide.guidance.smooth_sandstone.title=Polished Sandstone
 guide.guidance.smooth_sandstone.desc=A polished, decorative block of Sandstone.
 guide.guidance.chiseled_sandstone.title=Chiseled Sandstone
 guide.guidance.chiseled_sandstone.desc=A block of Polished Sandstone that appears to have some sort of hieroglyphs chiseled into it. Who carved these?
 guide.guidance.red_sandstone_slab.title=Red Sandstone Slab
 guide.guidance.red_sandstone_slab.desc=A decorative Half Slab of Red Sandstone.
+guide.guidance.red_sandstone_stairs.title=Red Sandstone Stairs
+guide.guidance.red_sandstone_stairs.desc=Decorative Red Sandstone Stairs. They can be placed facing 8 different directions, and will connect to neighboring Stairs.
 guide.guidance.brick_slab.title=Clay Brick Slab
 guide.guidance.brick_slab.desc=A decorative Half Slab of Clay Bricks.
+guide.guidance.brick_stairs.title=Clay Brick Stairs
+guide.guidance.brick_stairs.desc=Decorative Clay Brick Stairs. They can be placed facing 8 different directions, and will connect to neighboring Stairs.
+guide.guidance.brick_block.title=Clay Bricks
+guide.guidance.brick_block.desc=A block of sturdy Clay Bricks. It can be used to emblazon a field masoned on a Banner.
 guide.guidance.nether_brick_slab.title=Nether Brick Slab
 guide.guidance.nether_brick_slab.desc=A decorative Half Slab of Nether Bricks.
+guide.guidance.nether_brick_stairs.title=Nether Brick Stairs
+guide.guidance.nether_brick_stairs.desc=Decorative Nether Brick Stairs. They can be placed facing 8 different directions, and will connect to neighboring Stairs.
+guide.guidance.quartz_slab.title=Nether Quartz Slab
+guide.guidance.quartz_slab.desc=A decorative Half Slab of Nether Quartz.
+guide.guidance.quartz_stairs.title=Nether Quartz Stairs
+guide.guidance.quartz_stairs.desc=Decorative Nether Quartz Stairs. They can be placed facing 8 different directions, and will connect to neighboring Stairs.
 guide.guidance.purpur_slab.title=Purpur Tile Slab
 guide.guidance.purpur_slab.desc=A decorative Half Slab of Purpur Tiles.
+guide.guidance.purpur_stairs.title=Purpur Tile Stairs
+guide.guidance.purpur_stairs.desc=Decorative Purpur Tile Stairs. They can be placed facing 8 different directions, and will connect to neighboring Stairs.
+
+
+
+## Decor ##
+guide.guidance.torch.title=Torch
+guide.guidance.torch.desc=A flaming Stick. Useful for lighting up caves, as well as for decorative home lighting. It can be placed on the top or sides of any solid block, but breaks off if that block is broken. Strangely, it doesn't seem to be capable of igniting other blocks, despite being on fire itself.
+guide.guidance.sign.title=Sign
+guide.guidance.sign.desc=A small, wooden sign. When placed, you can type up to 4 lines of text on it. Signs are also impervious to liquids and have no collision, making them useful for controling Water flows - they can, however, be ignited by Lava.
+guide.guidance.oak_fence.title=Oak Plank Fence
+guide.guidance.oak_fence.desc=A decorative Fence made of Oak Planks. When placed, it can connect to adjacent Fences, as well as adjacent solid blocks. Despite appearing only 1 block tall, it actually has a collision of 1.5 blocks, preventing mobs and players from easily jumping over it.
+guide.guidance.birch_fence.title=Birch Plank Fence
+guide.guidance.birch_fence.desc=A decorative Fence made of Birch Planks. When placed, it can connect to adjacent Fences, as well as adjacent solid blocks. Despite appearing only 1 block tall, it actually has a collision of 1.5 blocks, preventing mobs and players from easily jumping over it.
+guide.guidance.spruce_fence.title=Spruce Plank Fence
+guide.guidance.spruce_fence.desc=A decorative Fence made of Spruce Planks. When placed, it can connect to adjacent Fences, as well as adjacent solid blocks. Despite appearing only 1 block tall, it actually has a collision of 1.5 blocks, preventing mobs and players from easily jumping over it.
+guide.guidance.jungle_fence.title=Jungle Plank Fence
+guide.guidance.jungle_fence.desc=A decorative Fence made of Jungle Planks. When placed, it can connect to adjacent Fences, as well as adjacent solid blocks. Despite appearing only 1 block tall, it actually has a collision of 1.5 blocks, preventing mobs and players from easily jumping over it.
+guide.guidance.acacia_fence.title=Acacia Plank Fence
+guide.guidance.acacia_fence.desc=A decorative Fence made of Acacia Planks. When placed, it can connect to adjacent Fences, as well as adjacent solid blocks. Despite appearing only 1 block tall, it actually has a collision of 1.5 blocks, preventing mobs and players from easily jumping over it.
+guide.guidance.dark_oak_fence.title=Dark Oak Plank Fence
+guide.guidance.dark_oak_fence.desc=A decorative Fence made of Dark Oak Planks. When placed, it can connect to adjacent Fences, as well as adjacent solid blocks. Despite appearing only 1 block tall, it actually has a collision of 1.5 blocks, preventing mobs and players from easily jumping over it.
+guide.guidance.nether_brick_fence.title=Nether Brick Fence
+guide.guidance.nether_brick_fence.desc=A decorative Fence made of Nether Bricks. When placed, it can connect to adjacent Fences, as well as adjacent solid blocks. Despite appearing only 1 block tall, it actually has a collision of 1.5 blocks, preventing mobs and players from easily jumping over it.
+guide.guidance.trapdoor.title=Wooden Trapdoor
+guide.guidance.trapdoor.desc=A small, horizontally hinged, wooden door. It can be opened by right-clicking it or powering it with Redstone. Contrary to its name, Trapdoors are one of the least useful blocks for trapping players, as they are very easy to distinguish from any surrounding blocks. Unlike normal Doors, however, they do not break when the block they were placed on is broken, making them very useful for decoration.
+guide.guidance.oak_door.title=Oak Door
+guide.guidance.oak_door.desc=A quaint, standard-looking door made of Oak Wood. It can be opened and closed by right clicking it or powering it with Redstone.
+guide.guidance.birch_door.title=Birch Door
+guide.guidance.birch_door.desc=An elegant door made of Birch Wood with a translucent, paper window. It can be opened and closed by right clicking it or powering it with Redstone.
+guide.guidance.spruce_door.title=Spruce Door
+guide.guidance.spruce_door.desc=A sturdy, rustic door made of Spruce Wood. It can be opened and closed by right clicking it or powering it with Redstone.
+guide.guidance.jungle_door.title=Jungle Door
+guide.guidance.jungle_door.desc=A funky-looking door with two odd-shaped windows made of Jungle Wood. It can be opened and closed by right clicking it or powering it with Redstone.
+guide.guidance.acacia_door.title=Acacia Door
+guide.guidance.acacia_door.desc=An airy, grated door made of Acacia Wood bars. It can be opened and closed by right clicking it or powering it with Redstone.
+guide.guidance.dark_oak_door.title=Dark Oak Door
+guide.guidance.dark_oak_door.desc=A classy door made of Dark Oak Wood with Gold handles. It can be opened and closed by right clicking it or powering it with Redstone.
+guide.guidance.iron_door.title=Iron Door
+guide.guidance.iron_door.desc=A hefty, solid-iron door. It has no handle, and can only be opened and closed by powering it with Redstone.
+guide.guidance.lit_pumpkin.title=Glow-Pumpkin
+guide.guidance.lit_pumpkin.desc=A purple, luminescent Pumpkin, created by melting Purple Glowshroom essence into the skin of a Pumpkin. Like normal Pumpkins, Glowpumpkins can be used for various purposes in Golemancy, and are useful for decorative lighting as an alternative to Glowstone.
 
 
 
 ## Utility ##
+guide.guidance.ladder.title=Ladder
+guide.guidance.ladder.desc=A rather plain-looking wooden Ladder. It can be placed on the side of any solid block, and can be climbed by running into it. Crouch while climbing to stay at one elevation, or jump to drop off the Ladder.
 guide.guidance.web.title=Cobweb
 guide.guidance.web.desc=A sticky block of Spider Web, mostly found in Abandoned Mineshafts. It is flammable, and greatly slows any entity that passes through it, other than Spiders and Cave Spiders. It drops String when harvested with a Sword, and drops itself when harvested with Shears.
+guide.guidance.bookshelf.title=Bookshelf
+guide.guidance.bookshelf.desc=A decorative, wooden shelf full of books. When placed near an Enchanting Table, it will shoot particles toward the Table, boosting the maximum level of its available enchantments. Unfortunately, the Bookshelf's construction requires the books to be molecularly fused to the shelf, rendering them unreadable.
+guide.guidance.chest.title=Chest
+guide.guidance.chest.desc=A fairly standard, wooden Chest. It can only hold 27 stacks of items by itself, but can be placed next to another Chest to form a Double Chest, which can hold 54. You cannot, however, place more than 2 Chests next to eachother, making them less optimal than Crates or Barrels for compact mass storage.
 guide.guidance.bed.title=Bed
 guide.guidance.bed.desc=A standard-looking Bed made of Wood and Wool. Right-clicking it lets you sleep through the night, and, mysteriously, seems to cause any current weather to dissapate. In multiplayer, all players must be sleeping in a Bed at the same time for this to work.
+guide.guidance.jukebox.title=Jukebox
+guide.guidance.jukebox.desc=A wooden mechanism that can play songs when right-clicked with an old, vinyl Disk. Now if only you knew how to make vinyl...
+guide.guidance.tnt.title=TNT
+guide.guidance.tnt.desc=A volatile package of Sulfur and Silicon. When powered by Redstone, right-clicked with a Flint and Steel, or fired from a Dispenser, it will start flashing for a few seconds. In this state, it will be affected by physics, and will proceed to violently explode soon after. TNT is commonly used for clearing away large areas of blocks - it is not, however, advisable for resource mining, as most of the drops are destroyed in the explosion.
+guide.guidance.monster_egg_stone.title=Stone Silverfish Burrow
+guide.guidance.monster_egg_stone.desc=A block of Stone containing a hidden Silverfish.
+guide.guidance.monster_egg_cobblestone.title=Cobblestone Silverfish Burrow
+guide.guidance.monster_egg_cobblestone.desc=A block of Cobblestone containing a hidden Silverfish.
+guide.guidance.monster_egg_stonebrick.title=Stone Brick Silverfish Burrow
+guide.guidance.monster_egg_stonebrick.desc=A block of Stone Bricks containing a hidden Silverfish.
+guide.guidance.monster_egg_mossy_stonebrick.title=Mossy Stone Brick Silverfish Burrow
+guide.guidance.monster_egg_mossy_stonebrick.desc=A block of Mossy Stone Bricks containing a hidden Silverfish.
+guide.guidance.monster_egg_cracked_stonebrick.title=Cracked Stone Brick Silverfish Burrow
+guide.guidance.monster_egg_cracked_stonebrick.desc=A block of Cracked Stone Bricks containing a hidden Silverfish.
+guide.guidance.monster_egg_chiseled_stonebrick.title=Chiseled Stone Silverfish Burrow
+guide.guidance.monster_egg_chiseled_stonebrick.desc=A block of Chiseled Stone containing a hidden Silverfish.
+guide.guidance.mob_spawner.title=Monster Spawner
+guide.guidance.mob_spawner.desc=A mysterious cage made of some unknown material. The inside seems to be wreathed in flames, and it appears to summon monsters into the air around it. You have no idea how it works, let alone who made it.
+guide.guidance.fire.title=Fire
+guide.guidance.fire.desc=Fire. Literally just fire. How did you even get this? Stop trying to break the game.
 
 
 
 ## Redstone ##
+guide.guidance.wood_button.title=Wooden Button
+guide.guidance.wood_button.desc=A small wooden Button. It behaves in exactly the same way as a Stone Button, but can be forced to stay active by firing an Arrow into it.
+guide.guidance.stone_button.title=Stone Button
+guide.guidance.stone_button.desc=A small stone Button, which can be activated by right-clicking it. Once activated, it delivers a 10 tick Redstone Pulse, making it useful for machines which don't need to stay active.
+guide.guidance.lever.title=Lever
+guide.guidance.lever.desc=A simple Lever made of Wood and stone. Right-clicking it will cause it to produce a full Redstone signal, making it useful for turning Redstone devices on and off. Levers can be placed on any solid side of a block, and will break if the block they are connected to is broken.
+guide.guidance.wood_pressure_plate.title=Wooden Pressure Plate
+guide.guidance.wood_pressure_plate.desc=A thin Wood tile that emits a full Redstone signal whenever any entity (including Items and projectiles) touches it.
+guide.guidance.stone_pressure_plate.title=Stone Pressure Plate
+guide.guidance.stone_pressure_plate.desc=A thin stone tile that emits a full Redstone signal whenever a mob or player steps on it, making it useful for auto-opening doors, player traps, or mob alarms.
+guide.guidance.redstone_torch.title=Redstone Torch
+guide.guidance.redstone_torch.desc=A special Torch fueled by Redstone rather than Coal. It acts like a normal Torch, but emits far less light. It does, however, emit a full Redstone signal to any adjacent Redstone Dust or components, and stops emitting current when the block it is placed on is powered. This behavior makes it extremely useful for things like inverting Redstone current, building Redstone logic gates, and moving Redstone current vertically.
+guide.guidance.redstone.title=Redstone
+guide.guidance.redstone.desc=A strange, red, conductive type of dust. It can be placed on the ground to form a sort of binary electrical wiring that can power various machines and mechanisms. Redstone Dust can connect to adjacent Redstone Dust, adjacent Redstone mechanisms, or even adjacent Dust located one block above or below itself. Redstone current can travel through a maximum of 15 Redstone Dust blocks, and can also be transfered through solid, non-Redstone blocks in certain situations.
+guide.guidance.redstone_repeater.title=Redstone Repeater
+guide.guidance.redstone_repeater.desc=A small Redstone device designed to extend a Redstone current. A Repeater recieving any level of Redstone current will emit a full level 15 current in the direction it is facing, allowing it to effectively extend a signal farther than 15 blocks. Powering a Repeater from the side using another Repeater will lock the first Repeater in whichever power state it was in, no matter whether it is currently recieving power or not - a trick that becomes quite useful for logic gates and the like.
+guide.guidance.rail.title=Rail
+guide.guidance.rail.desc=A set of Iron tracks designed to guide a Minecart. Placing a Minecart on the tracks will attach it to the Rails, where it can be moved freely along the track. Adjacent Minecart Rails will attach to one another, and can even attach to rails one block above or below themselves. Normal Rails do now, however, move their Minecarts, which must be powered along by other means. Additionally, mobs will avoid walking over Rails when they can, making them useful for routing monsters to specific locations.
 guide.guidance.golden_rail.title=Powered Rail
 guide.guidance.golden_rail.desc=A special, golden piece of Minecart track that, when powered, increases the velocity of any Minecart that moves over it. While unpowered, it does the opposite, acting as a form of breaks. It can connect to adjacent rails located one block above it, but, unlike normal Rails, cannot curve to connect to rails on two adjacent sides.
 guide.guidance.detector_rail.title=Detector Rail
@@ -512,3 +707,17 @@ guide.guidance.dispenser.title=Dispenser
 guide.guidance.dispenser.desc=A Redstone mechanism used for dispensing items. It works similarly to a Dropper, but when dispensing projectiles such as Snowballs, Eggs, Arrows, Splash Potions, etc, it will throw them in their projectile form rather than drop them as an item. It will also dispense activated TNT when firing TNT blocks, place Pumpkins and Wither Skulls on top of Golem/Wither bases, place Boats and Minecarts on Water/Rails, and place/remove Water and Lava sources via buckets.
 guide.guidance.noteblock.title=Note Block
 guide.guidance.noteblock.desc=A Redstone mechanism that plays a note when powered. Right-clicking it changes its pitch, and the instrument played varies based on the material of the block located below it.
+
+
+
+## Tool/Machine ##
+guide.guidance.crafting_table.title=Crafting Table
+guide.guidance.crafting_table.desc=One of the most useful blocks in the game, this wooden workbench can be used to craft an enormous variety of blocks and items. Its interface works the same as the in-inventory crafting menu, but with a 3x3 grid instead of a 2x2 - placing certain items in certain configurations on the grid will produce other items, which can be picked out of the slot to the right of the crafting grid.
+guide.guidance.furnace.title=Furnace
+guide.guidance.furnace.desc=A small, stone oven used for smelting certain blocks and items into other blocks and items. To-be-smelted items go in the top left slot, and fuel items go in the bottom left slot. If the top left item can be smelted, the smelting process will start, and the fuel will begin to deplete - each fuel source lasts a different duration than others. Once the arrow in the center fills up completely, the smelting result can be picked out of the right slot. This block is also a necessary ingredient in several later game machines.
+
+
+
+## Food ##
+guide.guidance.cake.title=Cake
+guide.guidance.cake.desc=An attractive looking, white-frosted Cake. It cannot be eaten directly, but once placed, each slice eated by right-clicking will restore 1 bar of hunger and 0.4 saturation points, ammounting to 7 hunger bars and 7 saturation points total. Cakes are often regarded as a symbol of status, due to their high resource cost and relatively low hunger output.
