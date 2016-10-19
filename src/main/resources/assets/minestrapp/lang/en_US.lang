@@ -335,6 +335,10 @@ guide.guidance.sponge.title=Sponge
 guide.guidance.sponge.desc=A dry Sponge block. When placed in Water, it will remove all the Water sources within a certain area and become Wet. The Water, however, is prone to re-filling in around the Sponge afterward, so it is easier to remove water located in a small, enclosed area.
 guide.guidance.wet_sponge.title=Wet Sponge
 guide.guidance.wet_sponge.desc=A wet Sponge block. Doesn't absorb Water like a dry Sponge would, but it can be dried again by smelting it.
+guide.guidance.chorus_plant.title=Chorus Plant
+guide.guidance.chorus_plant.desc=The stem of one of the strange, tentacle-like plants native to the outer reaches of the End. It is oddly squishy and coated in light-purple veins. It does not drop itself when harvested, even while using Silk Touch, but has a chance of dropping a Chorus Fruit, which seem to grow inside the bulbous sacks that appear on some of the stem blocks. Because of this, the Chorus Plants themselves can only be obtained via the Dimensional Fishery. Chorus Plants and Flowers can only be planted on End Stone or other Chorus Plants, and breaking one Chorus Plant block will cause a chain reaction, breaking all the others above it.
+guide.guidance.chorus_flower.title=Chorus Flower
+guide.guidance.chorus_flower.desc=The Flower of one of the strange, tentacle-like plants native to the outer reaches of the End. When planted on End Stone, it will grow upwards over time, leaving a long stem of Chorus Plant blocks in its wake. Chorus Flowers also have a chance to split into two separate stems while growing, allowing Chorus Plants to slowly form many branching trunks. When a Chorus Flower has stopped growing, its flower will close, turning the block the same dark purple as the rest of the stem. Dead Chorus Flowers can, however, be harvested again and re-planted to start growing a new Chorus plant. While breaking part of the Chorus Plant's stem will destroy the rest of the plant, it will not drop its flowers, requiring the player to manually harvest them if they wish to grow more Chorus Plants.
 
 
 
@@ -369,6 +373,8 @@ guide.guidance.snow.title=Block of Snow
 guide.guidance.snow.desc=A solid block of Snow. Mostly decorative, though its fast mining speed makes it useful as scaffolding. It drops nothing when broken, unless harvested with a Shovel, in which case it drops 4 Snowballs. Unlike Snow Layers, it does not melt when near light sources.
 guide.guidance.ice.title=Ice
 guide.guidance.ice.desc=A block of frozen water. Ice can be found covering the rivers and lakes in snowy biomes, and drops nothing when broken unless harvested with Silk Touch. It is slippery, and is thus often useful for transporting items or entities long distances. Any Water sources will turn into Ice over time when placed in a snowy biome with exposure to the sun, making it easily obtainable and renewable. Like Snow Layers, Ice will melt into a Water source when placed near any light source.
+guide.guidance.packed_ice.title=Packed Ice
+guide.guidance.packed_ice.desc=A block of hardened, compressed Ice, found in huge spike-like formations in Ice Spikes biomes. Like Ice, it drops nothing unless harvested with Silk Touch, but unlike Ice it cannot be melted by any light source, and will not create a Water source when broken by any means. This behavior makes it far more useful for building than Ice, as it can have torches and light sources placed near it with no negative consequences. It will not form naturally on the surface of Water like normal Ice will, but can be created by freezing Ice blocks using a Frost Generator.
 
 
 
@@ -383,10 +389,16 @@ guide.guidance.andesite.title=Andesite
 guide.guidance.andesite.desc=A greyish rock found underground in any biome. Mostly useful for decoration.
 guide.guidance.sandstone.title=Sandstone
 guide.guidance.sandstone.desc=A block of compressed Sand found commonly under the topsoil of Beaches and Deserts. Useful for decoration.
+guide.guidance.red_sandstone.title=Red Sandstone
+guide.guidance.red_sandstone.desc=A block of compressed Red Sand found occasionally around cave entrances in Mesa biomes. Useful for decoration.
 guide.guidance.hardened_clay.title=Hardened Clay
 guide.guidance.hardened_clay.desc=A block of dried, hardened Clay, also known as adobe. While it can be obtained by smelting Clay Blocks, it is far easier to obtain by finding a Mesa biome, where it composes a vast majority of the above-ground terrain. Oddly, Hardened Clay is able to sustain Dead Bushes, while regular Clay Blocks cannot.
+guide.guidance.prismarine.title=Prismarine
+guide.guidance.prismarine.desc=A mysterious alloy of Radiant Quartz and Coldstone, found in abundance in the grand Torian ocean monuments. It seems to be somewhat opalescent, slowly changing color as the light hits it from different angles. The Guardians that now inhabit these now-abandoned Torian relics seem to be made of Prismarine, though the Golemancy required to construct them is yet unknown.
 guide.guidance.netherrack.title=Netherrack
 guide.guidance.netherrack.desc=A strange, somewhat mushy, red block of stone found just about everywhere in the Nether. The stench it emits is nearly unbearable, and it's unclear what gives it such a vivid color, but it is quite useful in its ability to sustain a flame indefinitely.
+guide.guidance.magma.title=Magma Block
+guide.guidance.magma.desc=A block of cooled Magma, found in abundance in the lower reaches of the Nether. While you cannot sink into it like you would in Lava, standing on it will still hurt players and other mobs unless they are sneaking. Unlike Cactus, however, Magma will not destroy items or non-living entities that land on it, making it useful for mob killing systems. Magma also has one unique property shared only by Invincium - its ability to "store" light. When a Magma block recieves light from another block, the Magma block will continue to emit the light level it recieved, even if the original light source is removed. This property makes Magma blocks very useful for decorative lighting, as you can control the exact light level each block emits by placing light sources various distances away from it.
 guide.guidance.glowstone.title=Glowstone
 guide.guidance.glowstone.desc=A glowing block of lumpy, luminescent pebbles that seem to be stuck together with a great deal of Glowmoss sap. It can be found growing in almost stalactite-like clusters dripping from the roof of the Nether. It emits a bright light level when placed, making it useful for both decorative and underwater lighting. It drops 2-4 Glowstone Dust when mined, unless harvested with Silk Touch.
 guide.guidance.end_stone.title=End Stone
@@ -419,6 +431,16 @@ guide.guidance.quartz_ore.desc=A Netherrack block with traces of Nether Quartz e
 
 
 ## Resource ##
+guide.guidance.hay_block.title=Hay Bale
+guide.guidance.hay_block.desc=A block of tied-together Wheat bundles. Unlike Wheat, it cannot be used to breed mobs - it can, however, be fed to Horses, Donkeys, and Mules to heal up to 10 hearts of their health, and can be fed to Foals to speed up their growth. Falling onto a Hay Bale will also reduce the fall damage taken by 80%, allowing un-armored players to survive falls of up to 100 blocks.
+guide.guidance.bone_block.title=Bone Block
+guide.guidance.bone_block.desc=An enormous, cubic bone, found in the fossils of ancient creatures that can be seen rarely underground. Like Pillars and Logs, these can be placed facing three different directions. They are mostly decorative, but can be crafted into 9 Bonemeal and artificially replicated with the same materials, making it useful for storing large quantities of Bonemeal.
+guide.guidance.slime_block.title=Slime Block
+guide.guidance.slime_block.desc=A block of compressed, gelatinous Slime. It slows any entities walking on it, and falling onto it will bounce you back into the air without dealing any fall damage. Holding shift while you land on it will cancel this effect, but you will also take as much damage as you would from falling onto any other block. Additionally, Slime Blocks have the unique property of being able to vicariously move adjacent blocks whenever it is pushed or pulled by a Piston - i.e., if a Slime Block is in front of the Piston and a Dirt block is to the right of the Slime Block, both the Slime Block and the Dirt Block will be pushed when the Piston is activated. Multiple Slime and other Blocks can be chained together in this manner, allowing for complex flying machines, tunnelling devices, secret doors, etcetera. The limit of 12 blocks that can be pushed with a Piston does apply to all Slime and attatched blocks, however, limiting their capabilities somewhat.
+guide.guidance.nether_wart_block.title=Nether Wart Block
+guide.guidance.nether_wart_block.desc=A block of compacted Nether Wart. Mostly useful for decoration and storage.
+guide.guidance.coal_block.title=Block of Coal
+guide.guidance.coal_block.desc=A solid block of Coal. Mostly useful for decoration and compressed storage, but it can also be used as a fuel source that can smelt up to 80 items in a Furnace - 10 more items than could be smelted with the 9 Coal used to craft it. Coal blocks are also flammable, and take notably longer to burn than most other flammable blocks.
 guide.guidance.iron_block.title=Block of Iron
 guide.guidance.iron_block.desc=A solid block of Iron. Mostly useful for decoration and compressed storage, but can also be used in a Beacon Base.
 guide.guidance.gold_block.title=Block of Gold
@@ -471,6 +493,40 @@ guide.guidance.black_stained_glass.desc=A Glass block stained Black with Squid i
 
 
 ## Misc Building Blocks ##
+guide.guidance.sea_lantern.title=Sea Lantern
+guide.guidance.sea_lantern.desc=An eerie, turquoise lantern made of Prismarine Shards and Crystals that seems to pulsate slightly from its core. It emits a bright light light level and can be found commonly inside of Torian ocean monuments, but only drops a few Prismarine Shards and Crystals when harvested without Silk Touch.
+guide.guidance.white_carpet.title=White Carpet
+guide.guidance.white_carpet.desc=A square of Carpet made of White Wool. Unlike Wool, it cannot be dyed, and must instead by crafted with its corresponding colored Wool blocks. Carpets have a thin hitbox, making them useful for decorative floor covering, but also must be placed on top of another block (though the aforementioned block need not be solid).
+guide.guidance.orange_carpet.title=Orange Carpet
+guide.guidance.orange_carpet.desc=A square of Carpet made of Orange Wool. Unlike Wool, it cannot be dyed, and must instead by crafted with its corresponding colored Wool blocks. Carpets have a thin hitbox, making them useful for decorative floor covering, but also must be placed on top of another block (though the aforementioned block need not be solid).
+guide.guidance.magenta_carpet.title=Magenta Carpet
+guide.guidance.magenta_carpet.desc=A square of Carpet made of Magenta Wool. Unlike Wool, it cannot be dyed, and must instead by crafted with its corresponding colored Wool blocks. Carpets have a thin hitbox, making them useful for decorative floor covering, but also must be placed on top of another block (though the aforementioned block need not be solid).
+guide.guidance.light_blue_carpet.title=Light Blue Carpet
+guide.guidance.light_blue_carpet.desc=A square of Carpet made of Light Blue Wool. Unlike Wool, it cannot be dyed, and must instead by crafted with its corresponding colored Wool blocks. Carpets have a thin hitbox, making them useful for decorative floor covering, but also must be placed on top of another block (though the aforementioned block need not be solid).
+guide.guidance.yellow_carpet.title=Yellow Carpet
+guide.guidance.yellow_carpet.desc=A square of Carpet made of Yellow Wool. Unlike Wool, it cannot be dyed, and must instead by crafted with its corresponding colored Wool blocks. Carpets have a thin hitbox, making them useful for decorative floor covering, but also must be placed on top of another block (though the aforementioned block need not be solid).
+guide.guidance.lime_carpet.title=Lime Carpet
+guide.guidance.lime_carpet.desc=A square of Carpet made of Lime Wool. Unlike Wool, it cannot be dyed, and must instead by crafted with its corresponding colored Wool blocks. Carpets have a thin hitbox, making them useful for decorative floor covering, but also must be placed on top of another block (though the aforementioned block need not be solid).
+guide.guidance.pink_carpet.title=Pink Carpet
+guide.guidance.pink_carpet.desc=A square of Carpet made of Pink Wool. Unlike Wool, it cannot be dyed, and must instead by crafted with its corresponding colored Wool blocks. Carpets have a thin hitbox, making them useful for decorative floor covering, but also must be placed on top of another block (though the aforementioned block need not be solid).
+guide.guidance.gray_carpet.title=Gray Carpet
+guide.guidance.gray_carpet.desc=A square of Carpet made of Gray Wool. Unlike Wool, it cannot be dyed, and must instead by crafted with its corresponding colored Wool blocks. Carpets have a thin hitbox, making them useful for decorative floor covering, but also must be placed on top of another block (though the aforementioned block need not be solid).
+guide.guidance.light_gray_carpet.title=Light Gray Carpet
+guide.guidance.light_gray_carpet.desc=A square of Carpet made of Light Gray Wool. Unlike Wool, it cannot be dyed, and must instead by crafted with its corresponding colored Wool blocks. Carpets have a thin hitbox, making them useful for decorative floor covering, but also must be placed on top of another block (though the aforementioned block need not be solid).
+guide.guidance.cyan_carpet.title=Cyan Carpet
+guide.guidance.cyan_carpet.desc=A square of Carpet made of Cyan Wool. Unlike Wool, it cannot be dyed, and must instead by crafted with its corresponding colored Wool blocks. Carpets have a thin hitbox, making them useful for decorative floor covering, but also must be placed on top of another block (though the aforementioned block need not be solid).
+guide.guidance.purple_carpet.title=Purple Carpet
+guide.guidance.purple_carpet.desc=A square of Carpet made of Purple Wool. Unlike Wool, it cannot be dyed, and must instead by crafted with its corresponding colored Wool blocks. Carpets have a thin hitbox, making them useful for decorative floor covering, but also must be placed on top of another block (though the aforementioned block need not be solid).
+guide.guidance.blue_carpet.title=Blue Carpet
+guide.guidance.blue_carpet.desc=A square of Carpet made of Blue Wool. Unlike Wool, it cannot be dyed, and must instead by crafted with its corresponding colored Wool blocks. Carpets have a thin hitbox, making them useful for decorative floor covering, but also must be placed on top of another block (though the aforementioned block need not be solid).
+guide.guidance.brown_carpet.title=Brown Carpet
+guide.guidance.brown_carpet.desc=A square of Carpet made of Brown Wool. Unlike Wool, it cannot be dyed, and must instead by crafted with its corresponding colored Wool blocks. Carpets have a thin hitbox, making them useful for decorative floor covering, but also must be placed on top of another block (though the aforementioned block need not be solid).
+guide.guidance.green_carpet.title=Green Carpet
+guide.guidance.green_carpet.desc=A square of Carpet made of Green Wool. Unlike Wool, it cannot be dyed, and must instead by crafted with its corresponding colored Wool blocks. Carpets have a thin hitbox, making them useful for decorative floor covering, but also must be placed on top of another block (though the aforementioned block need not be solid).
+guide.guidance.red_carpet.title=Red Carpet
+guide.guidance.red_carpet.desc=A square of Carpet made of Red Wool. Unlike Wool, it cannot be dyed, and must instead by crafted with its corresponding colored Wool blocks. Carpets have a thin hitbox, making them useful for decorative floor covering, but also must be placed on top of another block (though the aforementioned block need not be solid).
+guide.guidance.black_carpet.title=Black Carpet
+guide.guidance.black_carpet.desc=A square of Carpet made of Black Wool. Unlike Wool, it cannot be dyed, and must instead by crafted with its corresponding colored Wool blocks. Carpets have a thin hitbox, making them useful for decorative floor covering, but also must be placed on top of another block (though the aforementioned block need not be solid).
 guide.guidance.white_wool.title=Wool
 guide.guidance.white_wool.desc=A normal, colorless block of Wool, commonly obtained by shearing Sheep. It can be dyed 15 different colors.
 guide.guidance.orange_wool.title=Orange Wool
@@ -631,18 +687,28 @@ guide.guidance.red_sandstone_slab.title=Red Sandstone Slab
 guide.guidance.red_sandstone_slab.desc=A decorative Half Slab of Red Sandstone.
 guide.guidance.red_sandstone_stairs.title=Red Sandstone Stairs
 guide.guidance.red_sandstone_stairs.desc=Decorative Red Sandstone Stairs. They can be placed facing 8 different directions, and will connect to neighboring Stairs.
+guide.guidance.smooth_red_sandstone.title=Polished Red Sandstone
+guide.guidance.smooth_red_sandstone.desc=A polished, decorative block of Red Sandstone.
+guide.guidance.chiseled_red_sandstone.title=Chiseled Red Sandstone
+guide.guidance.chiseled_red_sandstone.desc=A block of Polished Red Sandstone that appears to have some sort of hieroglyphs chiseled into it.
 guide.guidance.brick_slab.title=Clay Brick Slab
 guide.guidance.brick_slab.desc=A decorative Half Slab of Clay Bricks.
 guide.guidance.brick_stairs.title=Clay Brick Stairs
 guide.guidance.brick_stairs.desc=Decorative Clay Brick Stairs. They can be placed facing 8 different directions, and will connect to neighboring Stairs.
 guide.guidance.brick_block.title=Clay Bricks
 guide.guidance.brick_block.desc=A block of sturdy Clay Bricks. It can be used to emblazon a field masoned on a Banner.
+guide.guidance.prismarine_bricks.title=Prismarine Bricks
+guide.guidance.prismarine_bricks.desc=Odd, pentagonal bricks made of Prismarine, found in large quantities inside of ocean monuments. Like raw Prismarine, they seem to shimmer and change color slowly in the light.
+guide.guidance.prismarine_dark.title=Dark Prismarine Tiles
+guide.guidance.prismarine_dark.desc=Prismarine Tiles stained black with Squid Ink. They can be found in small quantities within ocean monuments. Unlike raw Prismarine, it does not fluctuate in color or appearance.
 guide.guidance.nether_brick_slab.title=Nether Brick Slab
 guide.guidance.nether_brick_slab.desc=A decorative Half Slab of Nether Bricks.
 guide.guidance.nether_brick_stairs.title=Nether Brick Stairs
 guide.guidance.nether_brick_stairs.desc=Decorative Nether Brick Stairs. They can be placed facing 8 different directions, and will connect to neighboring Stairs.
 guide.guidance.nether_bricks.title=Nether Bricks
 guide.guidance.nether_bricks.desc=A block of dark maroon bricks created by melting down Netherrack. Unlike the block it was made from, however, these Bricks are quite structurally durable.
+guide.guidance.red_nether_bricks.title=Red Nether Bricks
+guide.guidance.red_nether_bricks.desc=A block of brighter, red Nether Bricks, created by adding Nether Wart during the construction of Nether Brick Blocks.
 guide.guidance.quartz_slab.title=Nether Quartz Slab
 guide.guidance.quartz_slab.desc=A decorative Half Slab of Nether Quartz.
 guide.guidance.quartz_stairs.title=Nether Quartz Stairs
@@ -652,19 +718,29 @@ guide.guidance.quartz_block.desc=A solid block of smooth, white Nether Quartz. P
 guide.guidance.chiseled_quartz_block.title=Chiseled Nether Quartz
 guide.guidance.chiseled_quartz_block.desc=A block of Nether Quartz with an ornate, decorative pattern carved into it. These are commonly used as pillar caps by many builders.
 guide.guidance.quartz_pillar.title=Nether Quartz Pillar
-guide.guidance.quartz_pillar.desc=An elegant pillar of Nether Quartz. It can be placed facing three different directions.
+guide.guidance.quartz_pillar.desc=An elegant Pillar of Nether Quartz. It can be placed facing three different directions.
+guide.guidance.end_stone_bricks.title=End Stone Bricks
+guide.guidance.end_stone_bricks.desc=Large, sturdy bricks made of End Stone.
 guide.guidance.purpur_slab.title=Purpur Tile Slab
 guide.guidance.purpur_slab.desc=A decorative Half Slab of Purpur Tiles.
 guide.guidance.purpur_stairs.title=Purpur Tile Stairs
 guide.guidance.purpur_stairs.desc=Decorative Purpur Tile Stairs. They can be placed facing 8 different directions, and will connect to neighboring Stairs.
+guide.guidance.purpur_block.title=Purpur Tiles
+guide.guidance.purpur_block.desc=Decorative Tiles made of the hardened shells of Chorus Fruits. These were commonly used by the Farlanders in the construction of their enormous tower cities before they fled the Overworld.
+guide.guidance.purpur_pillar.title=Purpur Pillar
+guide.guidance.purpur_pillar.desc=A ornate Pillar of Purpur. It can be placed facing three different directions.
 
 
 
 ## Decor ##
 guide.guidance.torch.title=Torch
 guide.guidance.torch.desc=A flaming Stick. Useful for lighting up caves, as well as for decorative home lighting. It can be placed on the top or sides of any solid block, but breaks off if that block is broken. Strangely, it doesn't seem to be capable of igniting other blocks, despite being on fire itself.
+guide.guidance.end_rod.title=End Rod
+guide.guidance.end_rod.desc=A decorative, Sunstone light source found commonly in the lost cities of the Farlanders. Though its appearance is somewhat reminescent of a Torch, its behavior differs in many ways. It can be placed facing in all 6 directions as opposed to 5, and will not break if the block it was placed on is removed. It is also solid, unlike Torches, making it useful for building self-lighted fences and staircases as well.
 guide.guidance.flower_pot.title=Flower Pot
 guide.guidance.flower_pot.desc=A clay pot designed to hold small, decorative plants. Any type of one-block-tall Flower, Mushroom, or Sapling can be planted in it, as well as Ferns, Dead Bushes, and even Cacti.
+guide.guidance.banner.title=Banner
+guide.guidance.banner.desc=A decorative Banner made of Wool. It is the most visually customizable of all the blocks, and can be emblazened with countless different designs by applying various dyes, blocks, and items to it. Banners start off with one of 16 different base colors, each corresponding to the color of Wool used to craft it. They can then have layers applied to them, adding another visual element to their design. Each layer consists of dyes, which specify the color and shape of the element based on their placement in the crafting grid, and sometimes other blocks and items such as Brick Blocks or Vines, which can emblazen specialty designs onto the Banner's face. Only 6 designs can be applied to one Banner, however, so be sure to plan your design before slathering your Banner with excessive layers. Banners can additionally be applied to Shields, decorating the Shield with a miniaturized version of the Banner's design.
 guide.guidance.sign.title=Sign
 guide.guidance.sign.desc=A small, wooden sign. When placed, you can type up to 4 lines of text on it. Signs are also impervious to liquids and have no collision, making them useful for controling Water flows - they can, however, be ignited by Lava.
 guide.guidance.glass_pane.title=Glass Pane
@@ -735,6 +811,8 @@ guide.guidance.dark_oak_fence_gate.title=Dark Oak Plank Fence Gate
 guide.guidance.dark_oak_fence_gate.desc=A short wooden gate made of Dark Oak planks. Fences will connect to it, and it lowers slightly when connected to Cobbled Walls. Like Doors, it can be opened by right-clicking or powering it with Redstone, and like Fences, its collisions are 1.5 blocks tall, preventing mobs and players from jumping it.
 guide.guidance.trapdoor.title=Wooden Trapdoor
 guide.guidance.trapdoor.desc=A small, horizontally hinged, wooden door. It can be opened by right-clicking it or powering it with Redstone. Contrary to its name, Trapdoors are one of the least useful blocks for trapping players, as they are very easy to distinguish from any surrounding blocks. Unlike normal Doors, however, they do not break when the block they were placed on is broken, making them very useful for decoration.
+guide.guidance.iron_trapdoor.title=Iron Trapdoor
+guide.guidance.iron_trapdoor.desc=A small, horizontally hinged, iron door. It behaves the same way as Wooden Trapdoors, but cannot be manually opened and instead may only be opened or closed via Redstone.
 guide.guidance.oak_door.title=Oak Door
 guide.guidance.oak_door.desc=A quaint, standard-looking door made of Oak Wood. It can be opened and closed by right clicking it or powering it with Redstone.
 guide.guidance.birch_door.title=Birch Door
@@ -880,6 +958,44 @@ guide.guidance.brewing_stand.desc=A device used for the brewing and bottling of 
 
 
 
+## Materials ##
+guide.guidance.coal.title=Coal
+guide.guidance.coal.desc=A dark, powdery material obtained by mining Coal Ore. Coal's main use is as a fuel source - it can smelt up to 8 blocks or items in a Furnace, making it one of the cheapest and most efficient fuel sources in the Overworld. It is also used in crafting Torches, which are vital to your survival early on. Coal is extremely common underground in the Overworld, so crafting it into Coal Blocks may be necessary if it begins to take up a lot of storage space.
+guide.guidance.charcoal.title=Charcoal
+guide.guidance.charcoal.desc=A powdery, Coal-like substance obtained by smelting Logs. It behaves exactly the same as Coal for the most part - the one difference, however, is that it cannot be used to produce Steel. Because of this, it is often advisable to use Charcoal as your main fuel source instead of Coal if you are trying to make a lot of Steel Ingots, as you will burn through Coal very fast while alloying it with Iron.
+
+
+
 ## Food ##
+guide.guidance.apple.title=Apple
+guide.guidance.apple.desc=A round, red Apple that can be rarely found when breaking Oak or Dark Oak Leaves. Eating an apple restores 2 bars of hunger and 2.4 saturation points, making them a useful food when getting started in your world. Apples can also be made into Pies, but their even more useful application is for making Golden Apples, which not only heal more hunger but also grant the consumer various status buffs when eaten.
 guide.guidance.cake.title=Cake
 guide.guidance.cake.desc=An attractive looking, white-frosted Cake. It cannot be eaten directly, but once placed, each slice eated by right-clicking will restore 1 bar of hunger and 0.4 saturation points, ammounting to 7 hunger bars and 7 saturation points total. Cakes are often regarded as a symbol of status, due to their high resource cost and relatively low hunger output.
+
+
+
+## Tools ##
+guide.guidance.iron_pickaxe.title=Iron Pickaxe
+guide.guidance.iron_pickaxe.desc=A fairly standard Pickaxe made of Iron. It can be used to mine stone-based blocks notably faster, and has 251 uses before it breaks (though enchanting it with Unbreaking may increase this number). Pickaxes can be used for combat, though they are not very effective in most cases - Pickaxes only deal around 66% of the damage of a Sword of the same material, and take 1.3 times as long to recharge after attacking. While soil and wood blocks can often be harvested without a Shovel or Axe, most stone-based blocks require a Pickaxe to harvest, making them one of the most useful and necessary of all the tools.
+guide.guidance.iron_axe.title=Iron Axe
+guide.guidance.iron_axe.desc=A fairly standard Axe made of Iron. It can be used to chop wood-based blocks notably faster, and has 251 uses before it breaks (though enchanting it with Unbreaking may increase this number). Axes - unlike most other tools - are actually quite effective when used in combat. Most Axes deal 50% more damage than a Sword of the same material when used as a weapon. They do, however, take much longer to re-charge, so Axe-wielding combatants should be sure to make every strike count. Axes also have the unique ability of being able to break through other players' Shields, and can also, unlike any other tool, be enchanted with Sharpness, Smite, and Bane of Arthropods via Enchanted Books (though they cannot be enchanted with any other Sword enchantments such as Mending or Fire Aspect).
+guide.guidance.iron_shovel.title=Iron Shovel
+guide.guidance.iron_shovel.desc=A fairly standard Shovel made of Iron. It can be used to dig soil or snow-based blocks notably faster, and has 251 uses before it breaks (though enchanting it with Unbreaking may increase this number). Shovels can be used for combat, though they are not very effective in most cases - Shovels only deal around 75% of the damage of a Sword of the same material, and take 1.6 times as long to recharge after attacking. In addition to their digging and combat uses, activating Grass with a Shovel will convert it into a Grass Path block, using up 1 of the Shovel's durability.
+
+
+
+## Specialty Tools ##
+guide.guidance.flint_and_steel.title=Flint and Steel
+guide.guidance.flint_and_steel.desc=A useful tool for starting Fires. Activating a block with this item will create a Fire on whichever side of the block you were looking at - provided that location is valid for a Fire to be placed. Activating TNT blocks and Creepers with a Flint and Steel will ignite them instantly, though this can be dangerous, as it leaves little time to get out of the way of the ensuing explosion. Flint and Steels can be enchanted with Unbreaking or Mending just like any other tool with durability, though this can only be done via Enchanted Books on an Anvil. While cheap, Flint and Steels can only be used 65 times before breaking, so you are likely to need several when igniting numerous blocks.
+
+
+
+## Specialty Weapons ##
+guide.guidance.bow.title=Wooden Bow
+guide.guidance.bow.desc=A Bow made of supple wood and Spider String. Holding a bow and holding right-click while you have Arrows in your inventory will draw the Bow back. Once the Bow is drawn, releasing right-click will fire an Arrow, sending it soaring in an arc in the direction you are facing. Drawing the bow back farther will increase the range of this arc, allowing you to hit mobs and players from farther away. Reaching the maximum draw level will also cause the Arrow to deal more damage to any entities it hits. Bows will normally consume one Arrow and one durability per use (out of a maximum of 385 uses), though enchanting it with Infinity will prevent it from consuming normal Arrows at all.
+guide.guidance.arrow.title=Arrow
+guide.guidance.arrow.desc=A sharp projectile intended to be fired from a Bow. They can be crafted with Flint, Sticks, and Feathers, but are often easier obtained by killing Skeletons. When a Bow is drawn and fired, it will shoot one Arrow from the your inventory in the direction you are currently facing. If the Arrow strikes a mob or another player, it will deal damage to them - otherwise it will usually just lodge itself into a block, where it can be picked up by walking near it. Unlike most weapons, Arrows do not have a fixed damage amount - rather, their damage is calculated by how fast they were traveling when they struck the entity. This means that the longer the Bow is charged before firing, the more damage the Arrow will deal. Like most entities, Arrows will be lit on fire when passing through Lava, and flaming Arrows will ignite any entities they hit. Additionally, wven if an Arrow gets stuck in a block, it will fall downwards if the block is broken, damaging any entity it stikes on the way down. Like most projectiles, Arrows can be fired from Dispensers, which send them about as far as they would fly from a fully charged Bow.
+guide.guidance.spectral_arrow.title=Spectral Arrow
+guide.guidance.spectral_arrow.desc=An Arrow imbued with Glowstone Dust. It behaves exactly like a normal Arrow, but imbues any mob or player it strikes with the Glowing effect for 10 seconds, making them useful for targeting mobs in the dark or trying to hit players who are hiding behind barracades.
+guide.guidance.tipped_arrow.title=Tipped Arrow
+guide.guidance.tipped_arrow.desc=An Arrow coated with the contents of a Lingering Potion. As one might expect, these Arrows behave exactly like normal Arrows, but also apply their specific Potion effect to any mob or player they hit. The effect duration of the Potion Arrow is much shorter than that of the Potion used to craft it, but they have the added benefits of being stackable, as well as being able to hit mobs from a much longer range than that of a Splash or Lingering Potion. If you are carrying multiple types of Tipped Arrows and want to shoot a specific type, holding a stack of Arrows in the off-hand will prioritize those Arrows over all others - otherwise, the Bow will simply shoot an Arrow from whichever stack is closest to the bottom left of your inventory.
