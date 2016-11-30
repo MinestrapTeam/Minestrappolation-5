@@ -222,7 +222,7 @@ public class GuideHandler {
 		manager.registerInfoPage("prismarine", new GuideInfoPage("prismarine", EnumPageType.INFO));
 		stone.addEntry(new GuideEntry("netherrack", "Netherrack", new ItemStack(Blocks.NETHERRACK), 32+(8*16), 32));
 		manager.registerInfoPage("netherrack", new GuideInfoPage("netherrack", EnumPageType.INFO));
-		stone.addEntry(new GuideEntry("magma", "Magma", new ItemStack(Blocks.field_189877_df), 32+(9*16), 32));
+		stone.addEntry(new GuideEntry("magma", "Magma", new ItemStack(Blocks.MAGMA), 32+(9*16), 32));
 		manager.registerInfoPage("magma", new GuideInfoPage("magma", EnumPageType.INFO));
 		stone.addEntry(new GuideEntry("glowstone", "Glowstone", new ItemStack(Blocks.GLOWSTONE), 32+(10*16), 32));
 		manager.registerInfoPage("glowstone", new GuideInfoPage("glowstone", EnumPageType.INFO));
@@ -252,11 +252,11 @@ public class GuideHandler {
 		
 		resource.addEntry(new GuideEntry("hay_block", "Hay Bale", new ItemStack(Blocks.HAY_BLOCK), 32+(0*16), 32));
 		manager.registerInfoPage("hay_block", new GuideInfoPage("hay_block", EnumPageType.INFO));
-		resource.addEntry(new GuideEntry("bone_block", "Bone Block", new ItemStack(Blocks.field_189880_di), 32+(1*16), 32));
+		resource.addEntry(new GuideEntry("bone_block", "Bone Block", new ItemStack(Blocks.BONE_BLOCK), 32+(1*16), 32));
 		manager.registerInfoPage("bone_block", new GuideInfoPage("bone_block", EnumPageType.INFO));
 		resource.addEntry(new GuideEntry("slime_block", "Slime Block", new ItemStack(Blocks.SLIME_BLOCK), 32+(2*16), 32));
 		manager.registerInfoPage("slime_block", new GuideInfoPage("slime_block", EnumPageType.INFO));
-		resource.addEntry(new GuideEntry("nether_wart_block", "Nether Wart Block", new ItemStack(Blocks.field_189878_dg), 32+(3*16), 32));
+		resource.addEntry(new GuideEntry("nether_wart_block", "Nether Wart Block", new ItemStack(Blocks.NETHER_WART_BLOCK), 32+(3*16), 32));
 		manager.registerInfoPage("nether_wart_block", new GuideInfoPage("nether_wart_block", EnumPageType.INFO));
 		resource.addEntry(new GuideEntry("coal_block", "Block of Coal", new ItemStack(Blocks.COAL_BLOCK), 32+(4*16), 32));
 		manager.registerInfoPage("coal_block", new GuideInfoPage("coal_block", EnumPageType.INFO));
@@ -516,7 +516,7 @@ public class GuideHandler {
 		manager.registerInfoPage("nether_brick_stairs", new GuideInfoPage("nether_brick_stairs", EnumPageType.INFO));
 		stone_building.addEntry(new GuideEntry("nether_bricks", "Nether Bricks", new ItemStack(Blocks.NETHER_BRICK), 32+(13*16), 58));
 		manager.registerInfoPage("nether_bricks", new GuideInfoPage("nether_bricks", EnumPageType.INFO));
-		stone_building.addEntry(new GuideEntry("red_nether_bricks", "Red Nether Bricks", new ItemStack(Blocks.field_189879_dh), 32+(14*16), 58));
+		stone_building.addEntry(new GuideEntry("red_nether_bricks", "Red Nether Bricks", new ItemStack(Blocks.RED_NETHER_BRICK), 32+(14*16), 58));
 		manager.registerInfoPage("red_nether_bricks", new GuideInfoPage("red_nether_bricks", EnumPageType.INFO));
 		stone_building.addEntry(new GuideEntry("quartz_slab", "Nether Quartz Slab", new ItemStack(Blocks.STONE_SLAB, 1, 7), 32+(15*16), 58));
 		manager.registerInfoPage("quartz_slab", new GuideInfoPage("quartz_slab", EnumPageType.INFO));

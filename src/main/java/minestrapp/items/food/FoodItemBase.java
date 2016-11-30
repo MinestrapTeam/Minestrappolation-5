@@ -40,7 +40,7 @@ public class FoodItemBase extends ItemFood
 	@Nullable
     public ItemStack onItemUseFinish(ItemStack stack, World worldIn, EntityLivingBase entityLiving)
     {
-        --stack.stackSize;
+        stack.func_190918_g(1);
 
         if (entityLiving instanceof EntityPlayer)
         {

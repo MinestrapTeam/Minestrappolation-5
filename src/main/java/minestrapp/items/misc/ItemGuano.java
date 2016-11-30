@@ -100,7 +100,7 @@ public class ItemGuano extends ItemBase
                     	}
                     }
 
-                    --stack.stackSize;
+                    stack.func_190918_g(1);
                 }
 
                 return true;

@@ -71,7 +71,7 @@ public class BlockRope extends BlockBase
     }
     
     @Override
-	public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn)
+	public void neighborChanged(IBlockState state, World worldIn, BlockPos pos, Block blockIn, BlockPos neighbor)
 	{
 		if (!this.canBlockStay(worldIn, pos, EnumFacing.UP))
 		{
@@ -79,11 +79,11 @@ public class BlockRope extends BlockBase
 			worldIn.setBlockToAir(pos);
 		}
 
-		super.neighborChanged(state, worldIn, pos, blockIn);
+		super.neighborChanged(state, worldIn, pos, blockIn, neighbor);
 	}
     
     @Override
-	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, @Nullable ItemStack heldItem, EnumFacing side, float hitX, float hitY, float hitZ)
+	public boolean onBlockActivated(World worldIn, BlockPos pos, IBlockState state, EntityPlayer playerIn, EnumHand hand, EnumFacing heldItem, float side, float hitX, float hitY)
 	{
     	if (playerIn.getHeldItemMainhand() != null || playerIn.getHeldItemOffhand() != null)
 		{
@@ -113,10 +113,10 @@ public class BlockRope extends BlockBase
 						if (!playerIn.capabilities.isCreativeMode)
 						{
 							if(main == Item.getItemFromBlock(this.getDefaultState().getBlock()))
-								--playerIn.getHeldItemMainhand().stackSize;
+								playerIn.getHeldItemMainhand().func_190918_g(1);
 							else if(off == Item.getItemFromBlock(this.getDefaultState().getBlock()))
 							{
-								--playerIn.getHeldItemOffhand().stackSize;
+								playerIn.getHeldItemOffhand().func_190918_g(1);
 							}
 						}
 						isChecking = false;
@@ -152,7 +152,7 @@ public class BlockRope extends BlockBase
 			}
 			return true;
     	}
-		return super.onBlockActivated(worldIn, pos, state, playerIn, hand, heldItem, side, hitX, hitY, hitZ);
+		return super.onBlockActivated(worldIn, pos, state, playerIn, hand, heldItem, side, hitX, hitY);
 	}
     
     @Override

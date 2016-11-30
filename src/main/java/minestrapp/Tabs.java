@@ -2,6 +2,7 @@ package minestrapp;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 
@@ -14,8 +15,8 @@ public class Tabs {
     	}
 		@Override
 		@SideOnly(Side.CLIENT)
-		public Item getTabIconItem(){
-			return Item.getItemFromBlock(BlocksRegistry.invincium);
+		public ItemStack getTabIconItem(){
+			return new ItemStack(BlocksRegistry.invincium);
 		}
 	};
 	
@@ -27,8 +28,8 @@ public class Tabs {
     	}
 		@Override
 		@SideOnly(Side.CLIENT)
-		public Item getTabIconItem(){
-			return Item.getItemFromBlock(BlocksRegistry.dead_branch);
+		public ItemStack getTabIconItem(){
+			return new ItemStack(BlocksRegistry.dead_branch);
 		}
 	};
 	
@@ -40,8 +41,8 @@ public class Tabs {
     	}
 		@Override
 		@SideOnly(Side.CLIENT)
-		public Item getTabIconItem(){
-			return Item.getItemFromBlock(BlocksRegistry.block_copper);
+		public ItemStack getTabIconItem(){
+			return new ItemStack(BlocksRegistry.block_copper);
 		}
 	};
 	
@@ -53,8 +54,8 @@ public class Tabs {
     	}
 		@Override
 		@SideOnly(Side.CLIENT)
-		public Item getTabIconItem(){
-			return Item.getItemFromBlock(BlocksRegistry.glow_glass);
+		public ItemStack getTabIconItem(){
+			return new ItemStack(BlocksRegistry.glow_glass);
 		}
 	};
 	
@@ -66,8 +67,8 @@ public class Tabs {
     	}
 		@Override
 		@SideOnly(Side.CLIENT)
-		public Item getTabIconItem(){
-			return Item.getItemFromBlock(BlocksRegistry.block_irradiant_sunstone);
+		public ItemStack getTabIconItem(){
+			return new ItemStack(BlocksRegistry.block_irradiant_sunstone);
 		}
 	};
     
@@ -79,8 +80,8 @@ public class Tabs {
     	}
 		@Override
 		@SideOnly(Side.CLIENT)
-		public Item getTabIconItem(){
-			return ItemsRegistry.ingots;
+		public ItemStack getTabIconItem(){
+			return new ItemStack(ItemsRegistry.ingots);
 		}
 	};
 	
@@ -92,8 +93,8 @@ public class Tabs {
     	}
 		@Override
 		@SideOnly(Side.CLIENT)
-		public Item getTabIconItem(){
-			return ItemsRegistry.tech_component;
+		public ItemStack getTabIconItem(){
+			return new ItemStack(ItemsRegistry.tech_component);
 		}
 	};
 	
@@ -105,8 +106,8 @@ public class Tabs {
     	}
 		@Override
 		@SideOnly(Side.CLIENT)
-		public Item getTabIconItem(){
-			return ItemsRegistry.raspberry;
+		public ItemStack getTabIconItem(){
+			return new ItemStack(ItemsRegistry.raspberry);
 		}
 	};
 	
@@ -118,8 +119,8 @@ public class Tabs {
     	}
 		@Override
 		@SideOnly(Side.CLIENT)
-		public Item getTabIconItem(){
-			return ItemsRegistry.minechiridion;
+		public ItemStack getTabIconItem(){
+			return new ItemStack(ItemsRegistry.minechiridion);
 		}
 	};
 }

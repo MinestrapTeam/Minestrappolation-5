@@ -9,6 +9,7 @@ import net.minecraft.init.MobEffects;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionEffect;
+import net.minecraft.util.NonNullList;
 import net.minecraft.world.World;
 
 public class FoodItemCandy extends FoodItemBase implements IItemVariants
@@ -20,11 +21,11 @@ public class FoodItemCandy extends FoodItemBase implements IItemVariants
 	}
 	
 	@Override
-	public void getSubItems(Item item, CreativeTabs par2CreativeTabs, List<ItemStack> itemList)
+	public void getSubItems(Item itemIn, CreativeTabs tab, NonNullList<ItemStack> subItems)
 	{
 		for (int i = 0; i < 3; i++)
 		{
-			itemList.add(new ItemStack(this, 1, i));
+			subItems.add(new ItemStack(this, 1, i));
 		}
 	}
 
