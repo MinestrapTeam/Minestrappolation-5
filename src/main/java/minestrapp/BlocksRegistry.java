@@ -1,5 +1,6 @@
 package minestrapp;
 
+import java.util.AbstractList;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,6 +17,7 @@ import minestrapp.blocks.GlassBlockBase;
 import minestrapp.blocks.utility.BlockBase;
 import minestrapp.blocks.utility.BlockItemDrop;
 import minestrapp.blocks.utility.GravityBlockBase;
+import minestrapp.items.BlockItemBase;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockSand;
 import net.minecraft.block.SoundType;
@@ -25,6 +27,7 @@ import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
+import net.minecraft.util.NonNullList;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -55,7 +58,7 @@ public class BlocksRegistry {
 	public static void init(){
 		// REGISTER BLOCKS
 		//Soil
-		register(cold_sand = new BlockColdSand().setHardness(0.7F).setCreativeTab(Tabs.environment), new ItemBlock(cold_sand));
+		register(cold_sand = new BlockColdSand().setHardness(0.7F).setCreativeTab(Tabs.environment), new ItemBlock(cold_sand).setHasSubtypes(true));
 		register(rubble =  new GravityBlockBase("rubble", Material.ROCK, MapColor.STONE, SoundType.STONE, "pickaxe", 0).setHardness(1.75F).setResistance(8.0F).setCreativeTab(Tabs.environment));
 		
 		//Plants
@@ -92,7 +95,7 @@ public class BlocksRegistry {
 	
 	public static void registerRenders(){
 		for(Block block: blockList){
-			initModel(block);
+				initModel(block);
 		}
 	}
 	
@@ -102,13 +105,14 @@ public class BlocksRegistry {
 		blockList.add(block);
 	}
 	
-	public static void register(Block block, ItemBlock itemBlock){
+	public static void register(Block block, Item itemBlock){
 		GameRegistry.register(block);
 		GameRegistry.register(itemBlock.setRegistryName(block.getRegistryName()));
 		blockList.add(block);
 	}
 	
 	private static void initModel(Block block){
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation(block.getRegistryName(),"inventory"));
+		for(int i = 0 ; i < 16 ; i++)
+			ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), i, new ModelResourceLocation(block.getRegistryName(),"inventory"));
 	}
 }
