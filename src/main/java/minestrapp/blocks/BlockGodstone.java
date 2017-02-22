@@ -49,7 +49,7 @@ public class BlockGodstone extends BlockBase
 				if(living.isEntityUndead())
 				{
 					int k = rand.nextInt(8) + 1;
-					living.attackEntityFrom(DamageSource.magic, k);
+					living.attackEntityFrom(DamageSource.MAGIC, k);
                     ((WorldServer)world).spawnParticle(EnumParticleTypes.CRIT_MAGIC, living.posX, living.posY + (double)(living.height * 0.5F), living.posZ, k, 0.1D, 0.0D, 0.1D, 0.2D, new int[0]);
 				}
 				else

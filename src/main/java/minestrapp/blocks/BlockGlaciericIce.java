@@ -43,7 +43,7 @@ public class BlockGlaciericIce extends BlockBase
     @Override
 	public int quantityDroppedWithBonus(int fortune, Random random)
 	{
-		return MathHelper.clamp_int(this.quantityDropped(random) + random.nextInt(fortune + 1), 1, 5);
+		return MathHelper.clamp(this.quantityDropped(random) + random.nextInt(fortune + 1), 1, 5);
 	}
 
 	@Override

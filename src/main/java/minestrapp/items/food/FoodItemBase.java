@@ -40,7 +40,7 @@ public class FoodItemBase extends ItemFood
 	@Nullable
     public ItemStack onItemUseFinish(ItemStack stack, World worldIn, EntityLivingBase entityLiving)
     {
-        stack.func_190918_g(1);
+        stack.shrink(1);
 
         if (entityLiving instanceof EntityPlayer)
         {
@@ -59,7 +59,7 @@ public class FoodItemBase extends ItemFood
             if(!worldIn.isRemote && this.remains != null)
             {
             	EntityItem item = new EntityItem(worldIn, entityplayer.posX, entityplayer.posY, entityplayer.posZ, this.remains);
-            	worldIn.spawnEntityInWorld(item);
+            	worldIn.spawnEntity(item);
             }
             if(!worldIn.isRemote && this.fireMode != 0)
             {

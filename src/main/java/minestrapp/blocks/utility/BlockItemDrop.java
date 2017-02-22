@@ -79,7 +79,7 @@ public class BlockItemDrop extends BlockBase
         Random rand = world instanceof World ? ((World)world).rand : new Random();
         if (this.getItemDropped(state, rand, fortune) != Item.getItemFromBlock(this))
         {
-            int i = MathHelper.getRandomIntegerInRange(rand, minXP, maxXP);
+            int i = MathHelper.getInt(rand, minXP, maxXP);
 
             return i;
         }

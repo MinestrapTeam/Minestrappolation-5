@@ -113,10 +113,10 @@ public class BlockRope extends BlockBase
 						if (!playerIn.capabilities.isCreativeMode)
 						{
 							if(main == Item.getItemFromBlock(this.getDefaultState().getBlock()))
-								playerIn.getHeldItemMainhand().func_190918_g(1);
+								playerIn.getHeldItemMainhand().shrink(1);
 							else if(off == Item.getItemFromBlock(this.getDefaultState().getBlock()))
 							{
-								playerIn.getHeldItemOffhand().func_190918_g(1);
+								playerIn.getHeldItemOffhand().shrink(1);
 							}
 						}
 						isChecking = false;
@@ -146,7 +146,7 @@ public class BlockRope extends BlockBase
 				{
 					worldIn.setBlockState(pos1.offset(EnumFacing.UP), Blocks.AIR.getDefaultState());
 					if(!worldIn.isRemote)
-						worldIn.spawnEntityInWorld(new EntityItem(worldIn, playerIn.posX, playerIn.posY, playerIn.posZ, new ItemStack(BlocksRegistry.rope, 1)));
+						worldIn.spawnEntity(new EntityItem(worldIn, playerIn.posX, playerIn.posY, playerIn.posZ, new ItemStack(BlocksRegistry.rope, 1)));
 					isChecking = false;
 				}
 			}
